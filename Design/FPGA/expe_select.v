@@ -10,7 +10,7 @@ module expe_select(input [7:0] select,output  En_11,En_12,En_13,En_14,En_15,
 	assign En_15=	(~select[7])&(~select[6])&(~select[5])&(select[4])&(~select[3])&(select[2])&(~select[1])&(select[0]);
 	assign En_21=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(~select[2])&(~select[1])&(select[0]);
 	assign En_22=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(~select[2])&(select[1])&(~select[0]);
-	assign En_23=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(select[2])&(~select[1])&(select[0]);
+	assign En_23=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(~select[2])&(select[1])&(select[0]);
 	assign En_24=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(select[2])&(~select[1])&(~select[0]);
 	assign En_25=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(select[2])&(~select[1])&(select[0]);
 	assign En_26=	(~select[7])&(~select[6])&(select[5])&(~select[4])&(~select[3])&(select[2])&(select[1])&(~select[0]);

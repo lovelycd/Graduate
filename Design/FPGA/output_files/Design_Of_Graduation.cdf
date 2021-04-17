@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6F17) Path("D:/temp_desktop/Graduate/Design/FPGA/output_files/") File("Design_Of_Graduation.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE10F17) Path("D:/temp_desktop/Graduate/Design/FPGA/output_files/") File("Design_Of_Graduation.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

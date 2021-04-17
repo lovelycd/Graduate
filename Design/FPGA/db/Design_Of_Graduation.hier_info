@@ -1,41 +1,111 @@
 |Design_Of_Graduation
-select[0] => select[0].IN1
-select[1] => select[1].IN1
-select[2] => select[2].IN1
-select[3] => select[3].IN1
-select[4] => select[4].IN1
-select[5] => select[5].IN1
-select[6] => select[6].IN1
-select[7] => select[7].IN1
-En_11 <= expe_select:asdfasd.port1
-En_12 <= expe_select:asdfasd.port2
-En_13 <= expe_select:asdfasd.port3
-En_14 <= expe_select:asdfasd.port4
-En_15 <= expe_select:asdfasd.port5
-En_21 <= expe_select:asdfasd.port6
-En_22 <= expe_select:asdfasd.port7
-En_23 <= expe_select:asdfasd.port8
-En_24 <= expe_select:asdfasd.port9
-En_25 <= expe_select:asdfasd.port10
-En_26 <= expe_select:asdfasd.port11
-En_27 <= expe_select:asdfasd.port12
-En_28 <= expe_select:asdfasd.port13
-En_29 <= expe_select:asdfasd.port14
-En_31 <= expe_select:asdfasd.port15
-En_32 <= expe_select:asdfasd.port16
-En_33 <= expe_select:asdfasd.port17
-En_34 <= expe_select:asdfasd.port18
-En_35 <= expe_select:asdfasd.port19
-En_36 <= expe_select:asdfasd.port20
-En_41 <= expe_select:asdfasd.port21
-En_42 <= expe_select:asdfasd.port22
-En_43 <= expe_select:asdfasd.port23
-En_44 <= expe_select:asdfasd.port24
-En_45 <= expe_select:asdfasd.port25
-En_46 <= expe_select:asdfasd.port26
+tclk => tclk.IN1
+RXD => RXD.IN1
+DATA_R[0] <= UART_R:wesdfgh.port3
+DATA_R[1] <= UART_R:wesdfgh.port3
+DATA_R[2] <= UART_R:wesdfgh.port3
+DATA_R[3] <= UART_R:wesdfgh.port3
+DATA_R[4] <= UART_R:wesdfgh.port3
+DATA_R[5] <= UART_R:wesdfgh.port3
+DATA_R[6] <= UART_R:wesdfgh.port3
+DATA_R[7] <= UART_R:wesdfgh.port3
+intr_rcive <= UART_R:wesdfgh.port4
+logic_output[0] <= logic_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[1] <= <GND>
+logic_output[2] <= <GND>
+logic_output[3] <= <GND>
+logic_output[4] <= <GND>
+logic_output[5] <= <GND>
+logic_output[6] <= <GND>
+logic_output[7] <= <GND>
+logic_output[8] <= <GND>
+logic_output[9] <= <GND>
+logic_output[10] <= <GND>
+logic_output[11] <= <GND>
+logic_output[12] <= <GND>
+logic_output[13] <= <GND>
+logic_output[14] <= <GND>
+logic_output[15] <= <GND>
 
 
-|Design_Of_Graduation|expe_select:asdfasd
+|Design_Of_Graduation|UART_R:wesdfgh
+tclk => BaudRate_Clk:BCLSdasff.tclk
+BaudRate[0] => BaudRate_Clk:BCLSdasff.BaudRate[0]
+BaudRate[1] => BaudRate_Clk:BCLSdasff.BaudRate[1]
+BaudRate[2] => BaudRate_Clk:BCLSdasff.BaudRate[2]
+BaudRate[3] => BaudRate_Clk:BCLSdasff.BaudRate[3]
+BaudRate[4] => BaudRate_Clk:BCLSdasff.BaudRate[4]
+BaudRate[5] => BaudRate_Clk:BCLSdasff.BaudRate[5]
+BaudRate[6] => BaudRate_Clk:BCLSdasff.BaudRate[6]
+BaudRate[7] => BaudRate_Clk:BCLSdasff.BaudRate[7]
+BaudRate[8] => BaudRate_Clk:BCLSdasff.BaudRate[8]
+BaudRate[9] => BaudRate_Clk:BCLSdasff.BaudRate[9]
+BaudRate[10] => BaudRate_Clk:BCLSdasff.BaudRate[10]
+BaudRate[11] => BaudRate_Clk:BCLSdasff.BaudRate[11]
+BaudRate[12] => BaudRate_Clk:BCLSdasff.BaudRate[12]
+BaudRate[13] => BaudRate_Clk:BCLSdasff.BaudRate[13]
+BaudRate[14] => BaudRate_Clk:BCLSdasff.BaudRate[14]
+BaudRate[15] => BaudRate_Clk:BCLSdasff.BaudRate[15]
+BaudRate[16] => BaudRate_Clk:BCLSdasff.BaudRate[16]
+BaudRate[17] => BaudRate_Clk:BCLSdasff.BaudRate[17]
+BaudRate[18] => BaudRate_Clk:BCLSdasff.BaudRate[18]
+BaudRate[19] => BaudRate_Clk:BCLSdasff.BaudRate[19]
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => DATA_R.DATAB
+RXD => En_CLK.PRESET
+DATA_R[0] <= DATA_R[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[1] <= DATA_R[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[2] <= DATA_R[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[3] <= DATA_R[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[4] <= DATA_R[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[5] <= DATA_R[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[6] <= DATA_R[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA_R[7] <= DATA_R[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+intr_rcive <= intr_rcive~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|UART_R:wesdfgh|BaudRate_Clk:BCLSdasff
+En_CLK => tclk_temp.IN0
+tclk => tclk_temp.IN1
+BaudRate[0] => ~NO_FANOUT~
+BaudRate[1] => ~NO_FANOUT~
+BaudRate[2] => ~NO_FANOUT~
+BaudRate[3] => ~NO_FANOUT~
+BaudRate[4] => ~NO_FANOUT~
+BaudRate[5] => ~NO_FANOUT~
+BaudRate[6] => ~NO_FANOUT~
+BaudRate[7] => ~NO_FANOUT~
+BaudRate[8] => ~NO_FANOUT~
+BaudRate[9] => ~NO_FANOUT~
+BaudRate[10] => ~NO_FANOUT~
+BaudRate[11] => ~NO_FANOUT~
+BaudRate[12] => ~NO_FANOUT~
+BaudRate[13] => ~NO_FANOUT~
+BaudRate[14] => ~NO_FANOUT~
+BaudRate[15] => ~NO_FANOUT~
+BaudRate[16] => ~NO_FANOUT~
+BaudRate[17] => ~NO_FANOUT~
+BaudRate[18] => ~NO_FANOUT~
+BaudRate[19] => ~NO_FANOUT~
+CLK <= CLK~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tclk_temp <= tclk_temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|expe_select:expe_select1
 select[0] => En_11.IN1
 select[0] => En_13.IN1
 select[0] => En_15.IN1
@@ -72,14 +142,14 @@ select[1] => En_46.IN1
 select[1] => En_11.IN1
 select[1] => En_14.IN1
 select[1] => En_21.IN1
-select[1] => En_23.IN1
+select[1] => En_24.IN1
 select[1] => En_28.IN1
 select[1] => En_31.IN1
 select[1] => En_34.IN1
 select[1] => En_41.IN1
 select[1] => En_44.IN1
 select[2] => En_14.IN1
-select[2] => En_23.IN1
+select[2] => En_24.IN1
 select[2] => En_34.IN1
 select[2] => En_44.IN1
 select[2] => En_11.IN1
@@ -129,5 +199,12 @@ En_43 <= En_43.DB_MAX_OUTPUT_PORT_TYPE
 En_44 <= En_44.DB_MAX_OUTPUT_PORT_TYPE
 En_45 <= En_45.DB_MAX_OUTPUT_PORT_TYPE
 En_46 <= En_46.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|And_Not_Gate_1_1:asdfaadfswefa
+En => out1.IN1
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
 
 

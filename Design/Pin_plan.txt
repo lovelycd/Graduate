@@ -1,0 +1,11 @@
+50M晶振引脚  			E1
+串口接收引脚  	RXD		E7
+串口发送引脚	TXD		D8
+LED0				G15
+LED1				F15
+LED2				F15
+LED3				D16
+KEY1				E15				
+KEY2				E16
+KEY3				M16
+KEY4				M15
