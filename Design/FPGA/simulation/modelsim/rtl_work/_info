@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim
+vDesign_Of_Graduation
+!s110 1615555199
+!i10b 1
+!s100 b[MGmQBQk5d42bYUh2f[V1
+ID`6Li@Pf=BJ7IF4_E4@R;2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615545638
+8D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v
+FD:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1615555199.000000
+!s107 D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/temp_desktop/Graduate/Design/FPGA|D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/temp_desktop/Graduate/Design/FPGA
+Z4 tCvgOpt 0
+n@design_@of_@graduation
+vDesign_Of_Graduation_vlg_tst
+Z5 !s110 1615555200
+!i10b 1
+!s100 3<ffLd7H_@4[<^@<e=c3e2
+IXRKdBbfIfQgO^LUa8B:;01
+R1
+R0
+w1615555185
+8D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt
+FD:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt
+L0 28
+R2
+r1
+!s85 0
+31
+Z6 !s108 1615555200.000000
+!s107 D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim|D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim
+R4
+n@design_@of_@graduation_vlg_tst
+vRS_Trigger_3_1
+R5
+!i10b 1
+!s100 ?;l0Z=co2<Lhmk1JZOMHg1
+IoZU>K^Pl>WCHb?5Y>=JiI2
+R1
+R0
+w1615555056
+8D:/temp_desktop/Graduate/Design/FPGA/Lesson_3/RS_Trigger_3_1.v
+FD:/temp_desktop/Graduate/Design/FPGA/Lesson_3/RS_Trigger_3_1.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/temp_desktop/Graduate/Design/FPGA/Lesson_3/RS_Trigger_3_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/temp_desktop/Graduate/Design/FPGA/Lesson_3|D:/temp_desktop/Graduate/Design/FPGA/Lesson_3/RS_Trigger_3_1.v|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+D:/temp_desktop/Graduate/Design/FPGA/Lesson_3
+R4
+n@r@s_@trigger_3_1

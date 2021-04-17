@@ -1,0 +1,6 @@
+module Full_Adder_74hc153_2_5(input A1,B1,C0,output S1,C1);
+
+
+
+
+endmodule 

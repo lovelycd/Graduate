@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim
+vDesign_Of_Graduation
+Z1 !s110 1615525313
+!i10b 1
+!s100 RW3BH3[6=ZCfe<?]kgSPc3
+I8G2^cl3EL77O5I6G5ZBcT1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1615525222
+Z4 8Design_Of_Graduation_6_1200mv_85c_slow.vo
+Z5 FDesign_Of_Graduation_6_1200mv_85c_slow.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1615525313.000000
+Z8 !s107 Design_Of_Graduation_6_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Design_Of_Graduation_6_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@design_@of_@graduation
+vDesign_Of_Graduation_vlg_tst
+R1
+!i10b 1
+!s100 gS[zH<G>SRi]bFY29K1o:2
+I@2jnEWhmRb5>7on965kei3
+R2
+R0
+w1615524908
+8D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt
+FD:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim|D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim/Design_Of_Graduation.vt|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/temp_desktop/Graduate/Design/FPGA/simulation/modelsim
+R12
+n@design_@of_@graduation_vlg_tst
+vhard_block
+R1
+!i10b 1
+!s100 egL7iB@lEQ;Ma>6La=VlH0
+IQMBHP:G3B]iSWzf=?PmSa2
+R2
+R0
+R3
+R4
+R5
+L0 355
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

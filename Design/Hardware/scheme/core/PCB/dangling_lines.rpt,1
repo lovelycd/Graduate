@@ -1,0 +1,156 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Sun Apr 11 18:02:09 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  T10                  TOP                      8.4      (-229.7 209.1) to *(-229.7 217.5)
+  R10                  TOP                     22.6     *(1577.4 100.0) to  (1600.0 100.0)
+  GND                  TOP                      2.4     *(-333.4 227.9) to  (-331.1 227.6)
+  VCCIO                POWER                   29.1     *(-778.1 92.6) to  (-757.5 72.0)
+  VBUS                 TOP                      1.6      (848.4 -875.0) to *(850.0 -875.0)
+  N10507               TOP                      9.0     *(1043.9 -416.0) to  (1043.9 -425.0)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  C11                  THUC0R50R3           (-759.1 266.0)   TOP/BOTTOM 
+  Not on a Net         THUC0R50R3           (-655.9 -269.2)  TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  F6                   THUC0R50R3           (-573.7 -432.5)  TOP/BOTTOM 
+  F6                   THUC0R50R3           (-641.0 34.0)    TOP/BOTTOM 
+  F5                   THUC0R50R3           (-641.0 -5.4)    TOP/BOTTOM 
+  F5                   THUC0R50R3           (-571.0 -349.6)  TOP/BOTTOM 
+  F7                   THUC0R50R3           (-575.7 -225.0)  TOP/BOTTOM 
+  F7                   THUC0R50R3           (-641.0 73.3)    TOP/BOTTOM 
+  C11                  THUC0R50R3           (-759.1 266.0)   TOP/BOTTOM 
+  L12                  THUC0R50R3           (-409.0 305.4)   TOP/BOTTOM 
+  L12                  THUC0R50R3           (-301.4 826.3)   TOP/BOTTOM 
+  L11                  THUC0R50R3           (-409.0 266.0)   TOP/BOTTOM 
+  L11                  THUC0R50R3           (-225.0 850.0)   TOP/BOTTOM 
+  L10                  THUC0R50R3           (-409.0 226.7)   TOP/BOTTOM 
+  L10                  THUC0R50R3           (-124.9 871.1)   TOP/BOTTOM 
+  L9                   THUC0R50R3           (-409.0 187.3)   TOP/BOTTOM 
+  L9                   THUC0R50R3           (-100.0 825.0)   TOP/BOTTOM 
+  L8                   THUC0R50R3           (-118.0 -247.2)  TOP/BOTTOM 
+  L8                   THUC0R50R3           (-409.0 112.7)   TOP/BOTTOM 
+  L7                   THUC0R50R3           (-131.9 -222.6)  TOP/BOTTOM 
+  L7                   THUC0R50R3           (-409.0 73.3)    TOP/BOTTOM 
+  K10                  THUC0R50R3           (-448.3 226.7)   TOP/BOTTOM 
+  K10                  THUC0R50R3           (-352.4 850.0)   TOP/BOTTOM 
+  K9                   THUC0R50R3           (-448.3 187.3)   TOP/BOTTOM 
+  K9                   THUC0R50R3           (-325.0 875.0)   TOP/BOTTOM 
+  K8                   THUC0R50R3           (-227.5 -252.5)  TOP/BOTTOM 
+  K8                   THUC0R50R3           (-448.3 112.7)   TOP/BOTTOM 
+  K6                   THUC0R50R3           (-448.3 34.0)    TOP/BOTTOM 
+  K6                   THUC0R50R3           (-253.2 -256.5)  TOP/BOTTOM 
+  TMS_PAGE             THUC0R50R3           (-404.5 -975.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (1200.0 -425.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (1250.0 -1100.0) TOP/BOTTOM 
+  GND                  THUC0R50R3           (875.0 -450.0)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (925.0 -1125.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (624.0 -175.0)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (225.0 -190.9)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (186.1 938.9)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-251.5 423.5)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-368.6 344.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-289.7 306.0)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-369.6 -5.4)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-330.2 73.3)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-331.1 227.6)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-290.9 -5.4)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-251.5 -123.5)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-175.0 -525.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-375.0 -950.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-645.2 306.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-448.3 344.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-604.5 347.6)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-527.1 147.9)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-448.3 -44.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-680.4 -123.5)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-650.0 -675.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-759.1 305.4)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-798.5 423.5)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-719.8 73.3)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-719.8 226.7)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-759.1 -5.4)    TOP/BOTTOM 
+  GND                  THUC0R50R3           (-680.4 -44.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-601.7 -44.8)   TOP/BOTTOM 
+  GND                  THUC0R50R3           (-800.0 -125.0)  TOP/BOTTOM 
+  GND                  THUC0R50R3           (-1256.1 -518.9) TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (900.0 -175.0)   TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (-225.0 -800.0)  TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (-400.0 -1075.0) TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (825.0 -175.0)   TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (-562.3 305.4)   TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (-604.5 305.4)   TOP/BOTTOM 
+  VCCA                 THUC0R50R3           (-409.0 -5.4)    TOP/BOTTOM 
+  VCCINT               THUC0R50R3           (175.0 775.0)    TOP/BOTTOM 
+  VCCINT               THUC0R50R3           (300.0 -190.9)   TOP/BOTTOM 
+  VCCINT               THUC0R50R3           (-330.2 -44.8)   TOP/BOTTOM 
+  VCCINT               THUC0R50R3           (-566.5 147.9)   TOP/BOTTOM 
+  VCCINT               THUC0R50R3           (-719.8 344.8)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (1175.0 -900.0)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (1200.0 725.0)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-150.0 -925.0)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-759.1 226.7)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-290.1 227.6)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-290.9 345.0)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (675.0 475.0)    TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-212.1 462.9)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-525.0 1000.0)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-844.0 457.8)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-756.4 345.3)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-680.4 348.9)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-601.7 384.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-759.1 -44.8)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-925.0 -351.7)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-837.9 -162.9)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-211.0 -161.7)  TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-757.5 72.0)    TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-681.0 -87.5)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-601.7 -84.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-448.3 -84.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-369.6 -84.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-292.5 72.0)    TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-290.9 -44.8)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-448.3 384.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-369.6 384.1)   TOP/BOTTOM 
+  VCCIO                THUC0R50R3           (-650.0 -1150.0) TOP/BOTTOM 
+  VCC                  THUC0R50R3           (650.0 -175.0)   TOP/BOTTOM 
+  VCC                  THUC0R50R3           (1275.0 -175.0)  TOP/BOTTOM 
+  VCC                  THUC0R50R3           (997.7 -720.0)   TOP/BOTTOM 
+  VCC                  THUC0R50R3           (-848.5 -626.4)  TOP/BOTTOM 
+  DATA_PAGE            THUC0R50R3           (-650.0 -600.0)  TOP/BOTTOM 
+  DATA_PAGE            THUC0R50R3           (-925.0 -399.9)  TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       6
+  Total dangling vias:        2
+  Total antenna vias:       106

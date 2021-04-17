@@ -1,0 +1,12 @@
+module D_Trigger_3_2(input CLk,D,Rd0,Sd0,output Q,Q0);
+always @(negedge Rd0 or negedge Sd0 or posedge CLK)
+	begin
+	if(~Rd0) 
+			assign Q<=0;
+	else if(~Sd0)
+			assign Q<=1;
+	else 
+			assign Q<=D;
+	end
+assign Q0=~Q;	
+endmodule 

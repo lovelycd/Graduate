@@ -1,0 +1,10 @@
+module RS_Trigger_3_1(input R,S,output Q,Q0);
+output reg Q ;
+assign Q0=~Q;
+always case({R,S})
+	2'b00:
+	
+
+endcase 
+
+endmodule 

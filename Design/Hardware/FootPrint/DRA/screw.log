@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : screw.dra                                     )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Sat Apr 10 18:21:16 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = D:/temp_desktop/Graduate/Design/Hardware/FootPrint/DRA
+    Name      = screw.bsm
+    User      = DELL
+    Machine   = CD-DESKTOP
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

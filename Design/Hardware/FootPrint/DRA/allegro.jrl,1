@@ -1,0 +1,23 @@
+\t (00:00:03) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Apr 14 16:10:53 2021
+\t (00:00:03)         Host=CD-DESKTOP User=DELL Pid=16864 CPUs=4
+\t (00:00:03) CmdLine= D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged screw
+\d (00:00:06) Design opened: D:/temp_desktop/Graduate/Design/Hardware/FootPrint/DRA/screw.dra
+\i (00:00:06) trapsize 1287
+\i (00:00:06) trapsize 1327
+\i (00:00:06) trapsize 1287
+\i (00:00:06) trapsize 1517
+\i (00:00:06) trapsize 1554
+\i (00:00:07) etchedit 
+\i (00:00:10) open 
+\i (00:00:22) fillin "D:/temp_desktop/Graduate/Design/Hardware/scheme/base/PCB/base.brd"
+\i (00:00:22) cd "D:/temp_desktop/Graduate/Design/Hardware/scheme/base/PCB"
+\t (00:00:22) Opening existing design...
+\i (00:00:22) trapsize 673
+\i (00:00:22) trapsize 698
+\i (00:00:23) trapsize 698
+\t (00:00:23)     Journal end - Wed Apr 14 16:11:12 2021

@@ -1,0 +1,33 @@
+module expe_select(input selec7,selec6,selec5,selec4,selec3,selec2,selec1,selec0,output  En_11,En_12,En_13,En_14,En_15,
+	En_21,En_22,En_23,En_24,En_25,En_26,En_27,En_28,En_29,
+	En_31,En_32,En_33,En_34,En_35,En_36,
+	En_41,En_42,En_43,En_44,En_45,En_46);
+	
+	assign En_11=	(~selec7)&(~selec6)&(~selec5)&(selec4)&(~selec3)&(~selec2)&(~selec1)&(selec0);
+	assign En_12=	(~selec7)&(~selec6)&(~selec5)&(selec4)&(~selec3)&(~selec2)&(selec1)&(~selec0);
+	assign En_13=	(~selec7)&(~selec6)&(~selec5)&(selec4)&(~selec3)&(~selec2)&(selec1)&(selec0);
+	assign En_14=	(~selec7)&(~selec6)&(~selec5)&(selec4)&(~selec3)&(selec2)&(~selec1)&(~selec0);
+	assign En_15=	(~selec7)&(~selec6)&(~selec5)&(selec4)&(~selec3)&(selec2)&(~selec1)&(selec0);
+	assign En_21=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(~selec2)&(~selec1)&(selec0);
+	assign En_22=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(~selec2)&(selec1)&(~selec0);
+	assign En_23=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(selec2)&(~selec1)&(selec0);
+	assign En_24=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(selec2)&(~selec1)&(~selec0);
+	assign En_25=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(selec2)&(~selec1)&(selec0);
+	assign En_26=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(selec2)&(selec1)&(~selec0);
+	assign En_27=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(~selec3)&(selec2)&(selec1)&(selec0);
+	assign En_28=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(selec3)&(~selec2)&(~selec1)&(~selec0);
+	assign En_29=	(~selec7)&(~selec6)&(selec5)&(~selec4)&(selec3)&(~selec2)&(~selec1)&(selec0);
+	assign En_31=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(~selec2)&(~selec1)&(selec0);
+	assign En_32=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(~selec2)&(selec1)&(~selec0);
+	assign En_33=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(~selec2)&(selec1)&(selec0);
+	assign En_34=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(selec2)&(~selec1)&(~selec0);
+	assign En_35=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(selec2)&(~selec1)&(selec0);
+	assign En_36=	(~selec7)&(~selec6)&(selec5)&(selec4)&(~selec3)&(selec2)&(selec1)&(~selec0);
+	assign En_41=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(~selec2)&(~selec1)&(selec0);
+	assign En_42=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(~selec2)&(selec1)&(~selec0);
+	assign En_43=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(~selec2)&(selec1)&(selec0);
+	assign En_44=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(selec2)&(~selec1)&(~selec0);
+	assign En_45=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(selec2)&(~selec1)&(selec0);
+	assign En_46=	(~selec7)&(selec6)&(~selec5)&(~selec4)&(~selec3)&(selec2)&(selec1)&(~selec0);
+	
+endmodule 

@@ -1,0 +1,115 @@
+\t (00:00:02) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Apr 12 15:36:37 2021
+\t (00:00:02)         Host=CD-DESKTOP User=DELL Pid=14572 CPUs=4
+\t (00:00:02) CmdLine= D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe D:\temp_desktop\Graduate\Design\Hardware\scheme\core\CORE.DSN
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\e (00:00:05) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\e (00:00:05) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\i (00:00:10) fillin confirm
+\t (00:00:10) Starting new design...
+\i (00:00:11) trapsize 116667
+\i (00:00:11) etchedit 
+\i (00:05:53) xname_flush 
+\i (00:05:53) xname_flush 
+\i (00:06:19) xname_flush '!' 
+\i (00:06:19) xname_flush '!' 
+\i (00:06:19) xname_flush 
+\i (00:06:21) xname_flush '!' 
+\i (00:06:21) xname_flush 
+\i (00:06:21) xname_flush 
+\i (00:06:21) xname_flush '!' 
+\i (00:06:21) xname_flush '!' 
+\i (00:06:51) xname_flush 
+\i (00:06:51) xname_flush 
+\i (00:07:31) xname_flush 
+\i (00:07:40) xname_flush '!' 
+\i (00:07:56) xname_flush 
+\i (00:07:59) xname_flush '!' 
+\i (00:08:17) xname_flush 
+\i (00:08:20) xname_flush '!' 
+\i (00:08:31) xname_flush 
+\i (00:08:36) xname_flush '!' 
+\i (00:08:36) xname_flush 
+\i (00:08:40) xname_flush '!' 
+\i (00:08:59) xname_flush 
+\i (00:09:01) xname_flush '!' 
+\i (00:09:35) xname_flush 
+\i (00:09:37) xname_flush 
+\i (00:09:37) xname_flush 
+\i (00:09:38) xname_flush '!' 
+\i (00:09:42) xname_flush 
+\i (00:09:44) xname_flush 
+\i (00:09:44) xname_flush 
+\i (00:09:51) xname_flush 
+\i (00:09:51) xname_flush 
+\i (00:09:52) xname_flush '!' 
+\i (00:09:52) xname_flush 
+\i (00:09:52) xname_flush '!' 
+\i (00:09:52) xname_flush 
+\i (00:09:56) xname_flush 
+\i (00:09:56) xname_flush 
+\i (00:09:59) xname_flush 
+\i (00:10:00) xname_flush '!' 
+\i (00:10:29) xname_flush 
+\i (00:10:31) xname_flush 
+\i (00:10:31) xname_flush 
+\i (00:10:33) xname_flush 
+\i (00:10:44) xname_flush '!' 
+\i (00:11:01) xname_flush 
+\i (00:11:02) xname_flush 
+\i (00:11:02) xname_flush 
+\i (00:11:05) xname_flush '!' 
+\i (00:11:05) xname_flush 
+\i (00:11:07) xname_flush 
+\i (00:11:08) xname_flush 
+\i (00:11:10) xname_flush '!' 
+\i (00:11:10) xname_flush 
+\i (00:11:13) xname_flush 
+\i (00:11:13) xname_flush 
+\i (00:11:18) xname_flush '!' 
+\i (00:11:18) xname_flush 
+\i (00:11:18) xname_flush '!' 
+\i (00:11:18) xname_flush 
+\i (00:11:20) xname_flush 
+\i (00:11:22) xname_flush '!' 
+\i (00:11:45) xname_flush 
+\i (00:11:48) xname_flush '!' 
+\i (00:11:59) xname_flush 
+\i (00:12:02) xname_flush '!' 
+\i (00:12:02) xname_flush 
+\i (00:12:07) xname_flush '!' 
+\i (00:12:12) xname_flush 
+\i (00:12:21) xname_flush '!' 
+\i (00:12:21) xname_flush 
+\i (00:12:24) xname_flush '!' 
+\i (00:12:30) xname_flush 
+\i (00:12:49) xname_flush '!' 
+\i (00:12:49) xname_flush 
+\i (00:12:56) xname_flush '!' 
+\i (00:12:57) xname_flush 
+\i (00:13:05) xname_flush '!' 
+\i (00:13:06) xname_flush 
+\i (00:13:08) xname_flush '!' 
+\i (00:13:08) xname_flush 
+\i (00:13:12) xname_flush '!' 
+\i (00:13:32) xname_flush 
+\i (00:13:34) xname_flush '!' 
+\i (00:13:40) xname_flush 
+\i (00:13:45) xname_flush '!' 
+\i (00:13:50) xname_flush 
+\i (00:14:11) xname_flush '!' 
+\i (00:14:28) xname_flush 
+\i (00:14:41) xname_flush '!' 
+\i (00:14:42) xname_flush 
+\i (00:14:47) xname_flush '!' 
+\i (00:14:47) xname_flush 
+\i (00:14:51) xname_flush '!' 
+\i (00:14:56) xname_flush 
+\i (00:15:17) xname_flush '!' 
+\i (00:15:19) xname_flush 
+\i (00:15:23) xname_flush '!' 
+\i (00:15:23) xname_flush 
+\i (00:29:43) exit 
+\t (00:29:48)     Journal end - Mon Apr 12 16:06:23 2021

@@ -1,0 +1,62 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/core.brd           |
+|                                                    Mon Apr 12 12:04:50 2021  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ VCC                      VOLTAGE 5V
+ VCCA                     VOLTAGE 2.5V
+ VCCINT                   VOLTAGE 1.2V
+ VCCIO                    VOLTAGE 3.3V
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/core.brd           |
+|                                                    Mon Apr 12 12:04:50 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SPI_FLASH_SPIFLASH_ZD25WQ16BUIGR
+ SW DPDT_DIP250P600X533-6N_SW DPDT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/core.brd           |
+|                                                    Mon Apr 12 12:04:50 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SWT1                SW DPDT_DIP250P600X533-6N_SW DPDT   750.0  -875.0 SW DPDT_DIP200P500X533-6N_SW DPDT
+ UT5                 SPI_FLASH_SPIFLASH_ZD25WQ16BUIGR  -770.0  -425.0 SPI_FLASH_SOP127P600X490-8N_ZD25WQ16BUIGR
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/core.brd           |
+|                                                    Mon Apr 12 12:04:50 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SWT1.6           750.0  -875.0 PRIM_FILE      .\pstchip.dat
+ UT5.3           -770.0  -425.0 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Net property added    :       4                                        |
+|       Comp definitions added:       2                                        |
+|       Components changed    :       2                                        |
+|       Slot property added   :       2                                        |
+|                                                                              |
+|   Total ECO changes reported:      10                                        |
+|------------------------------------------------------------------------------|

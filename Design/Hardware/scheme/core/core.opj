@@ -1,0 +1,296 @@
+(ExpressProject "design_of_graduation"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S016 (3926987)  [3/13/2021]-[04/12/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lib\lib.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\core.dsn"
+      (Type "Schematic Design"))
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\core.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\CORE.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\CORE.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\CORE.DRC")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "D:\temp_desktop\Graduate\Design\Hardware\scheme\core\PCB\core.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "D:\temp_desktop\Graduate\Design\Hardware\scheme\core\allegro")
+    ("Allegro Backannotation Output File" "allegro\CORE.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE")
+    (Backannotation_TAB "0"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\core.bom"
+      (Type "Report"))
+    (File ".\core.drc"
+      (Type "Report"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\core.swp"
+      (Type "Report")
+      (DisplayName "CORE.swp")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\allegro\swp.log"
+      (Type "Log File")
+      (LogFile
+         "D:\temp_desktop\Graduate\Design\Hardware\scheme\core\allegro\swp.log")))
+  (MPSSessionName "DELL")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (F5F1
+      (FullPartName "F5F1.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MiniUSB
+      (FullPartName "MiniUSB.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    ("SW DPDT"
+      (FullPartName "SW DPDT.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PIN40
+      (FullPartName "PIN40.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (PIN30
+      (FullPartName "PIN30.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (PIN50
+      (FullPartName "PIN50.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (JTAG
+      (FullPartName "JTAG.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (Spi_Flash
+      (FullPartName "Spi_Flash.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AMS1117-3.3
+      (FullPartName "AMS1117-3.3.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (AMS1117-2.5
+      (FullPartName "AMS1117-2.5.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\CADENCE_SPB_17.4-2019\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AMS1117-1.2
+      (FullPartName "AMS1117-1.2.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (EP4CE10F17C8N
+      (FullPartName "EP4CE10F17C8N.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\CORE\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL_SOURCE
+      (FullPartName "CRYSTAL_SOURCE.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\LIB\LIB.OLB")
+      (DeviceIndex "0"))
+    (MAX232
+      (FullPartName "MAX232.Normal")
+      (LibraryName
+         "D:\TEMP_DESKTOP\GRADUATE\DESIGN\HARDWARE\SCHEME\LIB\LIB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\temp_desktop\graduate\design\hardware\scheme\core\core.dsn")
+      (Path "Design Resources"
+         "d:\temp_desktop\graduate\design\hardware\scheme\core\core.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\temp_desktop\graduate\design\hardware\scheme\core\core.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\temp_desktop\graduate\design\hardware\scheme\core\lib\lib.olb")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "d:\temp_desktop\graduate\design\hardware\scheme\core\core.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 236 0 889"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))

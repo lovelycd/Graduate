@@ -1,0 +1,11 @@
+module Fourbit_Bidirectional_Shift_Register_4_4(input CR0,CLK,S0,S1,DSL,DSR,D0,D1,D2,D3,output Q0,Q1,Q2,Q3);
+	if(~CR0) assign {Q3,Q2,Q1,Q0}=4'b0000;
+	always @(posedge CLK) begin 
+			case({S1,S0})
+					2'b10: assign {Q0,Q1,Q2,Q3}={Q1,Q2,Q3,DSL};
+					2'b01: assign {Q0,Q1,Q2,Q3}={DSR,Q1,Q2,Q3};
+					2'b11: assign {Q0,Q1,Q2,Q3}={D0,D1,D2,D3};
+					default: ;
+			endcase 
+	end
+endmodule 

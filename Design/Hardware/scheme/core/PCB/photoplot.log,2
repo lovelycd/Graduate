@@ -1,0 +1,455 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Mon Apr 12 16:12:58 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.01970                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02760                                  DARK 
+  CIRCLE     0.03540                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+  CIRCLE     0.15750                                  DARK 
+  SQUARE     0.05510                     0.000 NO     DARK 
+  SQUARE     0.06320                     0.000 NO     DARK 
+  RECTANGLE  0.01570     x 0.08660       0.000 NO     DARK 
+  RECTANGLE  0.03350     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.03350     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  RECTANGLE  0.07870     x 0.08660       0.000 NO     DARK 
+  OBLONG     0.06500     x 0.02560       0.000 NO     DARK 
+  OBLONG     0.07870     x 0.02360      90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (-1848.0 -1574.0) in MIL
+           ... ignored.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03540                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+
+     GND created with warnings
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03540                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+
+     POWER created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02360                                  DARK 
+  CIRCLE     0.03540                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+  CIRCLE     0.15750                                  DARK 
+  SQUARE     0.04920                     0.000 NO     DARK 
+  SQUARE     0.05510                     0.000 NO     DARK 
+  SQUARE     0.06320                     0.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.12800      90.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREENTOP >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/SILKSCREENTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-1650.0 -1430.0) in MIL
+           ... using undefined line width of 6.0 MIL
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.0 MIL
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00790                                  DARK 
+
+     SILKSCREENTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREENBOTTOM >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/SILKSCREENBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.0 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00790                                  DARK 
+
+     SILKSCREENBOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLIDTOP >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/SOLIDTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01970                                  DARK 
+  CIRCLE     0.02760                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+  CIRCLE     0.11810                                  DARK 
+  CIRCLE     0.15750                                  DARK 
+  SQUARE     0.05510                     0.000 NO     DARK 
+  SQUARE     0.06320                     0.000 NO     DARK 
+  RECTANGLE  0.03350     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.03350     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  OBLONG     0.06500     x 0.02560       0.000 NO     DARK 
+  OBLONG     0.07870     x 0.02360      90.000 NO     DARK 
+
+     SOLIDTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLIDBOTTOM >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/SOLIDBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02760                                  DARK 
+  CIRCLE     0.05510                                  DARK 
+  CIRCLE     0.06320                                  DARK 
+  CIRCLE     0.15750                                  DARK 
+  SQUARE     0.04920                     0.000 NO     DARK 
+  SQUARE     0.05510                     0.000 NO     DARK 
+  SQUARE     0.06320                     0.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.12800      90.000 NO     DARK 
+
+     SOLIDBOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTTOP >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/PASTTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01970                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  RECTANGLE  0.03350     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.03350     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  OBLONG     0.06500     x 0.02560       0.000 NO     DARK 
+  OBLONG     0.07870     x 0.02360      90.000 NO     DARK 
+
+     PASTTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < PASTBOTTOM >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/PASTBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  SQUARE     0.04920                     0.000 NO     DARK 
+  RECTANGLE  0.03640     x 0.01970      90.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510       0.000 NO     DARK 
+  RECTANGLE  0.04040     x 0.05510      90.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480       0.000 NO     DARK 
+  RECTANGLE  0.05510     x 0.07480      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.03740      90.000 NO     DARK 
+  RECTANGLE  0.08660     x 0.12800      90.000 NO     DARK 
+
+     PASTBOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < D:/temp_desktop/Graduate/Design/Hardware/scheme/core/PCB/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0
+  Offset y:                           0.0
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-3475.0 -3650.0) in MIL
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:  NONE
+     DRILL created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created with warnings
+        POWER created with warnings
+        BOTTOM created with warnings
+        SILKSCREENTOP created with warnings
+        SILKSCREENBOTTOM created with warnings
+        SOLIDTOP created with warnings
+        SOLIDBOTTOM created with warnings
+        PASTTOP created with warnings
+        PASTBOTTOM created with warnings
+        DRILL created with warnings
+
+ ARTWORK had warnings

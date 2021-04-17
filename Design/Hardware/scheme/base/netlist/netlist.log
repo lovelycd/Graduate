@@ -1,0 +1,18 @@
+{ Using PSTWRITER 17.4.0 d001Apr-14-2021 at 16:52:21 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.1" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "VCCIO".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.2" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "VCCIO".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.39" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "VCC".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.38" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "K15".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.37" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "K14".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "U5.40" ignored for U5: SCHEMATIC1, key (5.30, 4.10). Connecting pin to net "GND".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\temp_desktop\Graduate\Design\Hardware\scheme\base\netlist\pstchip.dat
+
+Loading... D:\temp_desktop\Graduate\Design\Hardware\scheme\base\netlist\pstchip.dat
+
+Loading... D:\temp_desktop\Graduate\Design\Hardware\scheme\base\netlist\pstxprt.dat
+
+Loading... D:\temp_desktop\Graduate\Design\Hardware\scheme\base\netlist\pstxnet.dat
+packaging the design view...

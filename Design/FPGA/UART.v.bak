@@ -1,0 +1,26 @@
+/*****CLK:计时读取电平
+		***	RxD:接收数据的端口
+		***TxD:发送数据的端口
+		***Data_R:接收到的数据
+		***Data_T:要发送的数据
+		***status:
+		******/
+module UART(CLK,RXD,TXD,Data_R,Data_T); 	
+	reg[2:0] CStatus=3'b000;
+	reg[2:0] NStatus=3'b000;
+	reg[3:0]  n;
+	
+	always()
+
+
+
+
+
+
+
+
+
+
+
+
+endmodule 

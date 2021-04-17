@@ -1,0 +1,5 @@
+module CrossOver_24_3_3(input CLK,output Q1,Q2);
+wire temp_Q0;
+D_Trigger_3_2( 1,CLK,temp_Q0,1,1, Q,temp_Q0);
+D_Trigger_3_2( 1,CLK,Q,1,1, Q);
+endmodule 

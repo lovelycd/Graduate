@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : SHDR0S254P5X2_2035X740X500.dra                )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Wed Apr 14 11:36:19 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Apr 14 11:36:19 2021				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'D:/temp_desktop/Graduate/Design/Hardware/FootPrint/DRA/SHDR0S254P5X2_2035X740X500.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/local/pcb/symbols 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/allegrolib/symbols 
+           D:/temp_desktop/Graduate/Design/Hardware/FootPrint/PSM 
+           D:/temp_desktop/Graduate/Design/Hardware/FootPrint/BSM 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/local/pcb/padstacks 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/allegrolib/symbols 
+           D:/temp_desktop/Graduate/Design/Hardware/FootPrint/PAD 
+
+
+------ Pad Stack Refresh Messages ------
+
+'S140H60'  pad stack refresh starting.
+
+     'S140H60'  pad stack refreshed successfully.
+     
+'C140H60'  pad stack refresh starting.
+
+     'C140H60'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

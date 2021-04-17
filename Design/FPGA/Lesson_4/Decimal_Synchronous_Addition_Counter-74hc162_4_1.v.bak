@@ -1,0 +1,22 @@
+module Decimal_Synchronous_Addition_Counter_74hc162_4_1(CR0,LD0,CLK,EP,ET,D0,D1,D2,D3,Q0,Q1,Q2,Q3,RCO);
+input  CR0,LD0,CLK,EP,ET,D0,D1,D2,D3;
+output reg Q0,Q1,Q2,Q3,RCO;
+always @(posedge CLK) begin
+	if(~CR0) 	{RCO,Q3,Q2,Q1,Q0}=5'b0;
+	else if(~LD0)  begin
+											{Q3,Q2,Q1,Q0}={D3,D2,D1,D0};
+											if(ET&({Q3,Q2,Q1,Q0}==4'b1001))  RCO=1;
+											else RCO=0;
+									end
+	else if(EP&ET) begin
+											if(RCO) begin
+																{Q3,Q2,Q1,Q0}=4'b0000;
+																RCO=0;
+															end
+											else  	begin											
+																{Q3,Q2,Q1,Q0}={Q3,Q2,Q1,Q0}+4'0001;
+																if(ET&({Q3,Q2,Q1,Q0}==4'b1001))  RCO=1;
+															end
+									end
+end
+endmodule 

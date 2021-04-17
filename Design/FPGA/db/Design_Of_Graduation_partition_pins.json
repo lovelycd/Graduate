@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "En_11",
+					"strict" : false
+				},
+				{
+					"name" : "En_12",
+					"strict" : false
+				},
+				{
+					"name" : "En_13",
+					"strict" : false
+				},
+				{
+					"name" : "En_14",
+					"strict" : false
+				},
+				{
+					"name" : "En_15",
+					"strict" : false
+				},
+				{
+					"name" : "En_21",
+					"strict" : false
+				},
+				{
+					"name" : "En_22",
+					"strict" : false
+				},
+				{
+					"name" : "En_23",
+					"strict" : false
+				},
+				{
+					"name" : "En_24",
+					"strict" : false
+				},
+				{
+					"name" : "En_25",
+					"strict" : false
+				},
+				{
+					"name" : "En_26",
+					"strict" : false
+				},
+				{
+					"name" : "En_27",
+					"strict" : false
+				},
+				{
+					"name" : "En_28",
+					"strict" : false
+				},
+				{
+					"name" : "En_29",
+					"strict" : false
+				},
+				{
+					"name" : "En_31",
+					"strict" : false
+				},
+				{
+					"name" : "En_32",
+					"strict" : false
+				},
+				{
+					"name" : "En_33",
+					"strict" : false
+				},
+				{
+					"name" : "En_34",
+					"strict" : false
+				},
+				{
+					"name" : "En_35",
+					"strict" : false
+				},
+				{
+					"name" : "En_36",
+					"strict" : false
+				},
+				{
+					"name" : "En_41",
+					"strict" : false
+				},
+				{
+					"name" : "En_42",
+					"strict" : false
+				},
+				{
+					"name" : "En_43",
+					"strict" : false
+				},
+				{
+					"name" : "En_44",
+					"strict" : false
+				},
+				{
+					"name" : "En_45",
+					"strict" : false
+				},
+				{
+					"name" : "En_46",
+					"strict" : false
+				},
+				{
+					"name" : "select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "select[5]",
+					"strict" : false
+				},
+				{
+					"name" : "select[7]",
+					"strict" : false
+				},
+				{
+					"name" : "select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "select[4]",
+					"strict" : false
+				},
+				{
+					"name" : "select[6]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+module Eightbit_Bidirectional_Shift_Register_4_6(input CR0,CLK,S0,S1,DSL,DSR,D0,D1,D2,D3,D4,D5,D6,D7,output Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7);
+wire temp;
+Fourbit_Bidirectional_Shift_Register_4_4            FBSR_44_1(CR0,CLK,S0,S1,temp,DSR,D0,D1,D2,D3,output Q0,Q1,Q2,Q3);
+Fourbit_Bidirectional_Shift_Register_4_4            FBSR_44_2(CR0,CLK,S0,S1,DSL,temp,D4,D5,D6,D7,output Q4,Q5,Q6,Q7);
+endmodule 

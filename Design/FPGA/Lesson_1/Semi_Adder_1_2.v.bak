@@ -1,0 +1,3 @@
+module Semi_Adder_1_2(input A0,B0,output S0,C0)
+
+endmodule 

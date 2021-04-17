@@ -1,0 +1,102 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Sat Apr 10 17:21:46 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.0
+Max Text displacement is 100.0
+Min Line Length is 6.0
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+Text string 'F5F1_DIO0805_F5F1' is not at a suitable location
+(location: 285.4, 900.0)
+Text string 'CH340G_SOP127P600X990-16N_CH340G' is not at a suitable location
+(location: 1200.0, -999.3)
+Text string 'JTAG_SHDR0S254P5X2_2035X740X500_JTAG' is not at a suitable location
+(location: -975.0, -1063.8)
+Text string 'JTAG_SHDR0S254P5X2_2035X740X500_JTAG' is not at a suitable location
+(location: 136.2, -650.0)
+Text string 'SPI_FLASH_SOP127P600X490-8N_ZD25WQ16BUIGR' is not at a suitable location
+(location: -770.0, -325.6)
+Text string 'R_RES0805_250' is not at a suitable location
+(location: 800.0, -285.4)
+Text string 'R_RES0805_500' is not at a suitable location
+(location: 1289.6, 750.0)
+Text string 'R_RES0805_10K' is not at a suitable location
+(location: -414.6, -1025.0)
+Text string 'DIODE_SOD2512X135N_BAT60B' is not at a suitable location
+(location: -800.0, -325.0)
+Text string 'DT7' is not at a suitable location
+(location: -800.0, -325.0)
+Text string 'DIODE_SOD2512X135N_BAT60B' is not at a suitable location
+(location: -800.0, -425.0)
+Text string 'DIODE_SOD2512X135N_BAT60B' is not at a suitable location
+(location: -475.0, -200.0)
+Text string 'DT8' is not at a suitable location
+(location: -675.0, -250.0)
+Text string 'DIODE_SOD2512X135N_BAT60B' is not at a suitable location
+(location: -575.0, -250.0)
+Text string 'C_CAP1206_22PF' is not at a suitable location
+(location: 1300.0, -400.4)
+Text string 'CT3' is not at a suitable location
+(location: 1100.0, -382.7)
+Text string 'C_CAP1206_22PF' is not at a suitable location
+(location: 1100.0, -400.4)
+Text string 'CT1' is not at a suitable location
+(location: -1200.0, -367.3)
+Text string 'C_CAP1206_10PF' is not at a suitable location
+(location: -1200.0, -349.6)
+Text string 'C_CAP1206_10PF' is not at a suitable location
+(location: -1200.0, -449.6)
+Text string 'C_CAP1206_10PF' is not at a suitable location
+(location: -450.4, -625.0)
+Text string 'CT7' is not at a suitable location
+(location: -532.7, -625.0)
+Text string 'C_CAP1206_10PF' is not at a suitable location
+(location: -550.4, -625.0)
+Text string 'CT9' is not at a suitable location
+(location: 725.0, -607.7)
+Text string 'C_CAP1206_10UF' is not at a suitable location
+(location: 725.0, -625.4)
+Text string 'C_CAP1206_10UF' is not at a suitable location
+(location: 725.0, -425.4)
+Text string 'CT6' is not at a suitable location
+(location: 725.0, -507.7)
+Text string 'C_CAP1206_10UF' is not at a suitable location
+(location: 725.0, -525.4)
+Text string 'SWT1' is not at a suitable location
+(location: 750.0, -726.4)
+Text string 'SW DPDT_DIP200P500X533-6N_SW DPDT' is not at a suitable location
+(location: 750.0, -744.1)
+Text string 'PIN40_SHDR0S254P20X2_5588X762X500_PIN40' is not at a suitable location
+(location: -275.0, -1131.9)
+Text string 'PIN50_SHDR0S254P25X2_6858X762X500_PIN50' is not at a suitable location
+(location: 0.0, 1106.9)
+Text string 'PIN50_SHDR0S254P25X2_6858X762X500_PIN50' is not at a suitable location
+(location: 1506.9, 0.0)
+Text string 'EP4CE10F17C8N_BGA256C100P16X16_1700X1700X200_EP4CE10F17C8N' is not at a suitable location
+(location: -931.5, 150.0)
+
+Total Failures: 34
+
+Log End
+

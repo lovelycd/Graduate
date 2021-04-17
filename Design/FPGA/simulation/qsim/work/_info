@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/temp_desktop/Graduate/Design/FPGA/simulation/qsim
+vDesign_Of_Graduation
+Z1 !s110 1618583567
+!i10b 1
+!s100 fPS^lOUOQQdS?46lkU^T_1
+I@J6B1XV8o0P4a<Y1N3b=30
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1618583565
+Z3 8Design_Of_Graduation.vo
+Z4 FDesign_Of_Graduation.vo
+L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1618583567.000000
+Z7 !s107 Design_Of_Graduation.vo|
+Z8 !s90 -work|work|Design_Of_Graduation.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@design_@of_@graduation
+vDesign_Of_Graduation_vlg_vec_tst
+R1
+!i10b 1
+!s100 I<z`bF^U4n=:gO_PFL9le0
+IQRB_[4Mlz_LWdjSG`?9V[0
+R2
+R0
+w1618583560
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+n@design_@of_@graduation_vlg_vec_tst
+vhard_block
+!s110 1615985220
+!i10b 1
+!s100 Mcka2`^fV6lb2R5kBe0be0
+Ik[6Zi9T<iPI:J4U]WfSgN3
+R2
+R0
+w1615985218
+R3
+R4
+L0 2043
+R5
+r1
+!s85 0
+31
+!s108 1615985220.000000
+R7
+R8
+!i113 1
+R9
+R10

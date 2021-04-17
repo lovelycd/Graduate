@@ -1,0 +1,9 @@
+module Decoder_74hc138(input   A0,A1,A2,S1,S2N,S3N,output Y0N,Y1N,Y2N,Y3N,Y4N,Y5N,Y6N,Y7N)
+
+
+
+
+
+
+
+endmodule 

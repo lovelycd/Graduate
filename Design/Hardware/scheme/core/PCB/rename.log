@@ -1,0 +1,76 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    RENAME REFDES                                                    )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Fri Apr  9 18:42:53 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Renaming components on BOTH_SIDES on entire BOARD
+    Extents: (-5500.0,-4250.0) (5500.0,4250.0)
+
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the RIGHT, from the top down.
+
+OLD U17    NEW UT1
+OLD D11    NEW DT1
+OLD D10    NEW DT2
+OLD D9    NEW DT3
+OLD D8    NEW DT4
+OLD R13    NEW RT1
+OLD R12    NEW RT2
+OLD R11    NEW RT3
+OLD R10    NEW RT4
+OLD U5    NEW UT2
+OLD U15    NEW UT3
+OLD U16    NEW UT4
+OLD C17    NEW CT1
+OLD D7    NEW DT5
+OLD D5    NEW DT6
+OLD C16    NEW CT2
+OLD D6    NEW DT7
+OLD U12    NEW UT5
+OLD C10    NEW CT3
+OLD C11    NEW CT4
+OLD D4    NEW DT8
+OLD C8    NEW CT5
+OLD C7    NEW CT6
+OLD Y1    NEW YT1
+OLD C14    NEW CT7
+OLD C15    NEW CT8
+OLD U13    NEW UT6
+OLD C12    NEW CT9
+OLD SW1    NEW SWT1
+OLD U3    NEW UT7
+OLD U14    NEW UT8
+OLD R5    NEW RT5
+OLD U18    NEW UT9
+OLD U19    NEW UT10
+Sequencing the reference designators SEQUENTIALLY
+Row processing direction : to the LEFT, from the top down.
+
+OLD R3    NEW RB1
+OLD C5    NEW CB1
+OLD C6    NEW CB2
+OLD D3    NEW DB1
+OLD U10    NEW UB1
+OLD C13    NEW CB3
+OLD U9    NEW UB2
+OLD U6    NEW UB3
+OLD D2    NEW DB2
+OLD C4    NEW CB4
+OLD C3    NEW CB5
+OLD D1    NEW DB3
+OLD C1    NEW CB6
+OLD C2    NEW CB7
+OLD R8    NEW RB2
+OLD R1    NEW RB3
+OLD C9    NEW CB8
+OLD U2    NEW UB4
+OLD R6    NEW RB4
+OLD R7    NEW RB5
+OLD R9    NEW RB6
+OLD R2    NEW RB7

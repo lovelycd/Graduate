@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Thu Mar 18 08:59:55 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : Design_Of_Graduation
+Top-level Entity Name : Design_Of_Graduation
+Family : Cyclone IV E
+Total logic elements : 623
+    Total combinational functions : 487
+    Dedicated logic registers : 416
+Total registers : 416
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 256
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

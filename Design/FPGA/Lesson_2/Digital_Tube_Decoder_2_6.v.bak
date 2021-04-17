@@ -1,0 +1,4 @@
+module Digital_Tube_Decoder_2_6(input En,A0,A1,A2,A3,output a,b,c,d,e,f,g,dp);	
+	reg [3:0] temp={A3,A2,A1,A0};
+	if(temp==4'b0000)  assign {a,b,c,d,e,f,g,dp}=7'b1111111;
+endmodule 

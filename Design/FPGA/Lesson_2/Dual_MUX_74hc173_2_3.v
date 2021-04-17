@@ -1,0 +1,4 @@
+module Dual_MUX_74hc173_2_3(input En,A0,A1,S1N,S2N,D10,D11,D12,D13,D20,D21,D22,D23,output Y1,Y2);
+assign Y1=((~A0&~A1&D10|A0&~A1&D11|~A0&A1&D12|A0&A1&D13)&(~S1N))&En;
+assign Y2=((~A0&~A1&D20|A0&~A1&D21|~A0&A1&D22|A0&A1&D23)&(~S2N))&En;
+endmodule 

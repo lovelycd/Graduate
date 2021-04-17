@@ -1,0 +1,216 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Convert Gerber Log                                               )
+(                                                                     )
+(    Drawing          : core.brd                                      )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Tue Apr  6 18:23:47 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+Conversion of figures to vias is complete.
+
+    Incomplete net N37150. 
+    Incomplete net N37138. 
+    Incomplete net N37126. 
+    Incomplete net N37114. 
+    Incomplete net N37091. 
+    Incomplete net N37079. 
+    Incomplete net N37067. 
+    Incomplete net N37055. 
+    Incomplete net N37040. 
+    Incomplete net N37028. 
+    Incomplete net N37016. 
+    Incomplete net N37004. 
+    Incomplete net N36989. 
+    Incomplete net N36977. 
+    Incomplete net N36965. 
+    Incomplete net N36953. 
+    Incomplete net N36938. 
+    Incomplete net N36934. 
+    Incomplete net N36919. 
+    Incomplete net N36915. 
+    Incomplete net N36911. 
+    Incomplete net N36853. 
+    Incomplete net N35965. 
+    Incomplete net N35945. 
+    Incomplete net N35933. 
+    Incomplete net N35921. 
+    Incomplete net N35909. 
+    Incomplete net N35897. 
+    Incomplete net N35885. 
+    Incomplete net N35873. 
+    Incomplete net N35861. 
+    Incomplete net N35841. 
+    Incomplete net NCS0_PAGE. 
+    Incomplete net N35829. 
+    Incomplete net N35792. 
+    Incomplete net N35780. 
+    Incomplete net N35768. 
+    Incomplete net N35756. 
+    Incomplete net N35744. 
+    Incomplete net N07197. 
+    Incomplete net N35732. 
+    Incomplete net N35717. 
+    Incomplete net N35705. 
+    Incomplete net N35683. 
+    Incomplete net N35671. 
+    Incomplete net N35656. 
+    Incomplete net N35644. 
+    Incomplete net N35498. 
+    Incomplete net N35480. 
+    Incomplete net NCE_PAGE. 
+    Incomplete net N34381. 
+    Incomplete net N34369. 
+    Incomplete net N06888. 
+    Incomplete net N34352. 
+    Incomplete net N34340. 
+    Incomplete net N34328. 
+    Incomplete net N34316. 
+    Incomplete net N34304. 
+    Incomplete net N34292. 
+    Incomplete net N34280. 
+    Incomplete net N34268. 
+    Incomplete net N34256. 
+    Incomplete net N34244. 
+    Incomplete net N34232. 
+    Incomplete net N34220. 
+    Incomplete net N34208. 
+    Incomplete net N34196. 
+    Incomplete net N34179. 
+    Incomplete net N06193. 
+    Incomplete net N34164. 
+    Incomplete net N34152. 
+    Incomplete net N34140. 
+    Incomplete net N34136. 
+    Incomplete net N34132. 
+    Incomplete net N34128. 
+    Incomplete net N34124. 
+    Incomplete net TMS_PAGE. 
+    Incomplete net N34120. 
+    Incomplete net TDO_PAGE. 
+    Incomplete net TCK_PAGE. 
+    Incomplete net N33778. 
+    Incomplete net N33766. 
+    Incomplete net N33754. 
+    Incomplete net N33742. 
+    Incomplete net N33730. 
+    Incomplete net N33718. 
+    Incomplete net N33706. 
+    Incomplete net N33694. 
+    Incomplete net N33682. 
+    Incomplete net GND. 
+    Incomplete net N33670. 
+    Incomplete net N33658. 
+    Incomplete net N33646. 
+    Incomplete net N33634. 
+    Incomplete net N33622. 
+    Incomplete net VCCA. 
+    Incomplete net VCCINT. 
+    Incomplete net N33290. 
+    Incomplete net N32491. 
+WARNING: Standalone via: Vccio, Thuc0r50r3, (-837.9 -162.9)
+WARNING: Standalone via: Vccio, Thuc0r50r3, (-837.9 462.9)
+    Incomplete net VCCIO. 
+    Incomplete net N32479. 
+    Incomplete net N32464. 
+    Incomplete net N32452. 
+    Incomplete net N32440. 
+    Incomplete net N32428. 
+    Incomplete net N32416. 
+    Incomplete net N31453. 
+    Incomplete net N31441. 
+    Incomplete net N31174. 
+    Incomplete net CONF_DONE_PAGE. 
+    Incomplete net N31162. 
+    Incomplete net N31150. 
+    Incomplete net N31135. 
+    Incomplete net N31123. 
+    Incomplete net N31111. 
+    Incomplete net N31099. 
+    Incomplete net N31087. 
+    Incomplete net NSTATUS_PAGE. 
+    Incomplete net N31075. 
+    Incomplete net N30554. 
+    Incomplete net N30633. 
+    Incomplete net N30621. 
+    Incomplete net N30609. 
+    Incomplete net N30597. 
+    Incomplete net N30585. 
+    Incomplete net N30542. 
+    Incomplete net CLK. 
+    Incomplete net N30530. 
+WARNING: Standalone via: N30506, Thuc0r50r3, (-897.6 347.6)
+    Incomplete net N30506. 
+    Incomplete net N30494. 
+    Incomplete net N30482. 
+    Incomplete net N30467. 
+    Incomplete net N30454. 
+WARNING: Standalone via: N30442, Thuc0r50r3, (-900.0 150.0)
+    Incomplete net N30442. 
+    Incomplete net N31321. 
+    Incomplete net N30430. 
+    Incomplete net N31405. 
+WARNING: Standalone via: N30418, Thuc0r50r3, (-897.0 72.0)
+    Incomplete net N30418. 
+    Incomplete net N30406. 
+    Incomplete net N30394. 
+WARNING: Standalone via: N30379, Thuc0r50r3, (-946.1 -46.1)
+    Incomplete net N30379. 
+    Incomplete net N42981. 
+WARNING: Standalone via: N30367, Thuc0r50r3, (-900.0 -125.0)
+    Incomplete net N30367. 
+    Incomplete net N42966. 
+WARNING: Standalone via: N30352, Thuc0r50r3, (-875.0 -225.0)
+    Incomplete net N30352. 
+    Incomplete net N42951. 
+    Incomplete net RXD_PAGE. 
+    Incomplete net TXD_PAGE. 
+    Incomplete net N42161. 
+    Incomplete net N42146. 
+    Incomplete net N42131. 
+    Incomplete net N42119. 
+    Incomplete net N42104. 
+    Incomplete net N42089. 
+    Incomplete net NCONFIG_PAGE. 
+    Incomplete net N42077. 
+    Incomplete net N42062. 
+    Incomplete net N42050. 
+    Incomplete net N42041. 
+    Incomplete net N42037. 
+    Incomplete net N39948. 
+    Incomplete net N39964. 
+    Incomplete net VCC. 
+    Incomplete net N39932. 
+    Incomplete net N39920. 
+    Incomplete net TDI_PAGE. 
+    Incomplete net N40103. 
+    Incomplete net N40091. 
+    Incomplete net N40079. 
+    Incomplete net ASDI_PAGE. 
+    Incomplete net N40067. 
+    Incomplete net N40055. 
+    Incomplete net N40043. 
+    Incomplete net N40031. 
+    Incomplete net N40019. 
+    Incomplete net DATA_PAGE. 
+    Incomplete net N39996. 
+WARNING: Standalone via: Dclk_Page, Thuc0r50r3, (900.0 425.0)
+    Incomplete net DCLK_PAGE. 
+    Incomplete net N39984. 
+    Incomplete net N39972. 
+180 incomplete nets. 
+
+10 percent of nets are completely connected.
+
+
+WARNING: 9 Redundant vias exist on board
+
+
+Elapsed time for conversion: 0 min 1 sec
+
+
+Conversion complete; no errors found. 
