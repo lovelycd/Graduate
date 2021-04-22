@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sat Apr 17 11:15:58 2021
+Fitter Status : Successful - Thu Apr 22 10:16:18 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : Design_Of_Graduation
 Top-level Entity Name : Design_Of_Graduation
 Family : Cyclone IV E
 Device : EP4CE10F17C8L
 Timing Models : Final
-Total logic elements : 1,175 / 10,320 ( 11 % )
+Total logic elements : 1,173 / 10,320 ( 11 % )
     Total combinational functions : 720 / 10,320 ( 7 % )
     Dedicated logic registers : 906 / 10,320 ( 9 % )
 Total registers : 906
