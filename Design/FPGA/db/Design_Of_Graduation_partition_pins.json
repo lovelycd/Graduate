@@ -48,6 +48,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "key_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[1]",
+					"strict" : false
+				},
+				{
 					"name" : "tclk",
 					"strict" : false
 				},

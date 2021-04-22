@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "04/17/2021 11:07:20"
+// Generated on "04/22/2021 11:02:14"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          Design_Of_Graduation
 // 
@@ -29,143 +29,243 @@
 module Design_Of_Graduation_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg [7:0] select;
+reg En_Key;
+reg [15:0] Key_input;
+reg [15:0] Logic_input;
 // wires                                               
-wire En_11;
-wire En_12;
-wire En_13;
-wire En_14;
-wire En_15;
-wire En_21;
-wire En_22;
-wire En_23;
-wire En_24;
-wire En_25;
-wire En_26;
-wire En_27;
-wire En_28;
-wire En_29;
-wire En_31;
-wire En_32;
-wire En_33;
-wire En_34;
-wire En_35;
-wire En_36;
-wire En_41;
-wire En_42;
-wire En_43;
-wire En_44;
-wire En_45;
-wire En_46;
+wire [15:0] Rea_input;
 
 // assign statements (if any)                          
 Design_Of_Graduation i1 (
 // port map - connection between master ports and signals/registers   
-	.En_11(En_11),
-	.En_12(En_12),
-	.En_13(En_13),
-	.En_14(En_14),
-	.En_15(En_15),
-	.En_21(En_21),
-	.En_22(En_22),
-	.En_23(En_23),
-	.En_24(En_24),
-	.En_25(En_25),
-	.En_26(En_26),
-	.En_27(En_27),
-	.En_28(En_28),
-	.En_29(En_29),
-	.En_31(En_31),
-	.En_32(En_32),
-	.En_33(En_33),
-	.En_34(En_34),
-	.En_35(En_35),
-	.En_36(En_36),
-	.En_41(En_41),
-	.En_42(En_42),
-	.En_43(En_43),
-	.En_44(En_44),
-	.En_45(En_45),
-	.En_46(En_46),
-	.select(select)
+	.En_Key(En_Key),
+	.Key_input(Key_input),
+	.Logic_input(Logic_input),
+	.Rea_input(Rea_input)
 );
 initial 
 begin 
 #10000000 $finish;
 end 
-// select[ 7 ]
+
+// En_Key
 initial
 begin
-	repeat(7)
-	begin
-		select[7] = 1'b0;
-		select[7] = #640000 1'b1;
-		# 640000;
-	end
-	select[7] = 1'b0;
-	select[7] = #640000 1'b1;
+	En_Key = 1'b0;
+	En_Key = #640000 1'b1;
+	En_Key = #4000000 1'b0;
 end 
-// select[ 6 ]
+// Key_input[ 15 ]
 initial
 begin
-	repeat(15)
-	begin
-		select[6] = 1'b0;
-		select[6] = #320000 1'b1;
-		# 320000;
-	end
-	select[6] = 1'b0;
-	select[6] = #320000 1'b1;
+	Key_input[15] = 1'b0;
+	Key_input[15] = #880000 1'b1;
+	Key_input[15] = #160000 1'b0;
 end 
-// select[ 5 ]
+// Key_input[ 14 ]
 initial
 begin
-	repeat(31)
-	begin
-		select[5] = 1'b0;
-		select[5] = #160000 1'b1;
-		# 160000;
-	end
-	select[5] = 1'b0;
+	Key_input[14] = 1'b0;
+	Key_input[14] = #5440000 1'b1;
+	Key_input[14] = #240000 1'b0;
 end 
-// select[ 4 ]
+// Key_input[ 13 ]
 initial
 begin
-	repeat(62)
-	begin
-		select[4] = 1'b0;
-		select[4] = #80000 1'b1;
-		# 80000;
-	end
-	select[4] = 1'b0;
+	Key_input[13] = 1'b0;
+	Key_input[13] = #5440000 1'b1;
+	Key_input[13] = #240000 1'b0;
 end 
-// select[ 3 ]
-always
+// Key_input[ 12 ]
+initial
 begin
-	select[3] = 1'b0;
-	select[3] = #40000 1'b1;
-	#40000;
+	Key_input[12] = 1'b0;
+	Key_input[12] = #1600000 1'b1;
+	Key_input[12] = #240000 1'b0;
+	Key_input[12] = #3600000 1'b1;
+	Key_input[12] = #240000 1'b0;
 end 
-// select[ 2 ]
-always
+// Key_input[ 11 ]
+initial
 begin
-	select[2] = 1'b0;
-	select[2] = #20000 1'b1;
-	#20000;
+	Key_input[11] = 1'b0;
+	Key_input[11] = #1600000 1'b1;
+	Key_input[11] = #240000 1'b0;
+	Key_input[11] = #4400000 1'b1;
+	Key_input[11] = #160000 1'b0;
 end 
-// select[ 1 ]
-always
+// Key_input[ 10 ]
+initial
 begin
-	select[1] = 1'b0;
-	select[1] = #10000 1'b1;
-	#10000;
+	Key_input[10] = 1'b0;
+	Key_input[10] = #6240000 1'b1;
+	Key_input[10] = #160000 1'b0;
 end 
-// select[ 0 ]
-always
+// Key_input[ 9 ]
+initial
 begin
-	select[0] = 1'b0;
-	select[0] = #5000 1'b1;
-	#5000;
+	Key_input[9] = 1'b0;
+	Key_input[9] = #6240000 1'b1;
+	Key_input[9] = #160000 1'b0;
+end 
+// Key_input[ 8 ]
+initial
+begin
+	Key_input[8] = 1'b0;
+	Key_input[8] = #2080000 1'b1;
+	Key_input[8] = #240000 1'b0;
+	Key_input[8] = #3920000 1'b1;
+	Key_input[8] = #160000 1'b0;
+end 
+// Key_input[ 7 ]
+initial
+begin
+	Key_input[7] = 1'b0;
+	Key_input[7] = #2080000 1'b1;
+	Key_input[7] = #240000 1'b0;
+end 
+// Key_input[ 6 ]
+initial
+begin
+	Key_input[6] = 1'b0;
+	Key_input[6] = #2080000 1'b1;
+	Key_input[6] = #240000 1'b0;
+end 
+// Key_input[ 5 ]
+initial
+begin
+	Key_input[5] = 1'b0;
+end 
+// Key_input[ 4 ]
+initial
+begin
+	Key_input[4] = 1'b0;
+end 
+// Key_input[ 3 ]
+initial
+begin
+	Key_input[3] = 1'b0;
+end 
+// Key_input[ 2 ]
+initial
+begin
+	Key_input[2] = 1'b0;
+end 
+// Key_input[ 1 ]
+initial
+begin
+	Key_input[1] = 1'b0;
+end 
+// Key_input[ 0 ]
+initial
+begin
+	Key_input[0] = 1'b0;
+end 
+// Logic_input[ 15 ]
+initial
+begin
+	Logic_input[15] = 1'b0;
+end 
+// Logic_input[ 14 ]
+initial
+begin
+	Logic_input[14] = 1'b0;
+end 
+// Logic_input[ 13 ]
+initial
+begin
+	Logic_input[13] = 1'b0;
+end 
+// Logic_input[ 12 ]
+initial
+begin
+	Logic_input[12] = 1'b0;
+end 
+// Logic_input[ 11 ]
+initial
+begin
+	Logic_input[11] = 1'b0;
+	Logic_input[11] = #5760000 1'b1;
+	Logic_input[11] = #320000 1'b0;
+end 
+// Logic_input[ 10 ]
+initial
+begin
+	Logic_input[10] = 1'b0;
+	Logic_input[10] = #5760000 1'b1;
+	Logic_input[10] = #320000 1'b0;
+end 
+// Logic_input[ 9 ]
+initial
+begin
+	Logic_input[9] = 1'b0;
+	Logic_input[9] = #5760000 1'b1;
+	Logic_input[9] = #320000 1'b0;
+	Logic_input[9] = #1200000 1'b1;
+	Logic_input[9] = #320000 1'b0;
+end 
+// Logic_input[ 8 ]
+initial
+begin
+	Logic_input[8] = 1'b0;
+	Logic_input[8] = #5760000 1'b1;
+	Logic_input[8] = #320000 1'b0;
+	Logic_input[8] = #1200000 1'b1;
+	Logic_input[8] = #320000 1'b0;
+end 
+// Logic_input[ 7 ]
+initial
+begin
+	Logic_input[7] = 1'b0;
+	Logic_input[7] = #5760000 1'b1;
+	Logic_input[7] = #320000 1'b0;
+	Logic_input[7] = #1200000 1'b1;
+	Logic_input[7] = #320000 1'b0;
+	Logic_input[7] = #560000 1'b1;
+	Logic_input[7] = #240000 1'b0;
+end 
+// Logic_input[ 6 ]
+initial
+begin
+	Logic_input[6] = 1'b0;
+	Logic_input[6] = #7280000 1'b1;
+	Logic_input[6] = #320000 1'b0;
+	Logic_input[6] = #560000 1'b1;
+	Logic_input[6] = #240000 1'b0;
+end 
+// Logic_input[ 5 ]
+initial
+begin
+	Logic_input[5] = 1'b0;
+	Logic_input[5] = #8160000 1'b1;
+	Logic_input[5] = #240000 1'b0;
+end 
+// Logic_input[ 4 ]
+initial
+begin
+	Logic_input[4] = 1'b0;
+	Logic_input[4] = #8160000 1'b1;
+	Logic_input[4] = #240000 1'b0;
+end 
+// Logic_input[ 3 ]
+initial
+begin
+	Logic_input[3] = 1'b0;
+end 
+// Logic_input[ 2 ]
+initial
+begin
+	Logic_input[2] = 1'b0;
+end 
+// Logic_input[ 1 ]
+initial
+begin
+	Logic_input[1] = 1'b0;
+end 
+// Logic_input[ 0 ]
+initial
+begin
+	Logic_input[0] = 1'b0;
 end 
 endmodule
 

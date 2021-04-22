@@ -1,0 +1,8 @@
+module Real_input(input En_Key,[15:0] Key_input,[15:0] Logic_input,output reg [15:0] Rea_input);
+Rea_input=({En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key,En_Key}&Key_input)|((~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key,~En_Key)&Logic_input)                                   
+
+
+
+
+
+endmodule 

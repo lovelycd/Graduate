@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Design_Of_Graduation
-Thu Apr 22 09:54:55 2021
+Thu Apr 22 11:23:48 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -24,11 +24,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
  16. Source assignments for sld_signaltap:auto_signaltap_0
  17. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
  18. Port Connectivity Checks: "expe_select:expe_select1"
- 19. Port Connectivity Checks: "UART_R:wesdfgh|BaudRate_Clk:BCLSdasff"
- 20. Port Connectivity Checks: "UART_R:wesdfgh"
- 21. Signal Tap Logic Analyzer Settings
- 22. Post-Synthesis Netlist Statistics for Top Partition
- 23. Post-Synthesis Netlist Statistics for Partition sld_signaltap:auto_signaltap_0
+ 19. Port Connectivity Checks: "Real_input:realinput1"
+ 20. Port Connectivity Checks: "UART_R:wesdfgh|BaudRate_Clk:BCLSdasff"
+ 21. Port Connectivity Checks: "UART_R:wesdfgh"
+ 22. Signal Tap Logic Analyzer Settings
+ 23. Post-Synthesis Netlist Statistics for Top Partition
  24. Elapsed Time Per Partition
  25. Connections to In-System Debugging Instance "auto_signaltap_0"
  26. Analysis & Synthesis Messages
@@ -58,16 +58,16 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 22 09:54:55 2021           ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 22 11:23:48 2021           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; Design_Of_Graduation                            ;
 ; Top-level Entity Name              ; Design_Of_Graduation                            ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 1,245                                           ;
-;     Total combinational functions  ; 719                                             ;
-;     Dedicated logic registers      ; 906                                             ;
-; Total registers                    ; 906                                             ;
-; Total pins                         ; 27                                              ;
+; Total logic elements               ; 1,250                                           ;
+;     Total combinational functions  ; 724                                             ;
+;     Dedicated logic registers      ; 907                                             ;
+; Total registers                    ; 907                                             ;
+; Total pins                         ; 43                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 106,496                                         ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -176,8 +176,7 @@ refer to the applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -190,6 +189,7 @@ refer to the applicable agreement for further details.
 ; UART.v                                                             ; yes             ; User Verilog HDL File                        ; D:/temp_desktop/Graduate/Design/FPGA/UART.v                                                             ;             ;
 ; Lesson_1/And_Not_Gate_1_1.v                                        ; yes             ; User Verilog HDL File                        ; D:/temp_desktop/Graduate/Design/FPGA/Lesson_1/And_Not_Gate_1_1.v                                        ;             ;
 ; expe_select.v                                                      ; yes             ; User Verilog HDL File                        ; D:/temp_desktop/Graduate/Design/FPGA/expe_select.v                                                      ;             ;
+; Real_input.v                                                       ; yes             ; User Verilog HDL File                        ; D:/temp_desktop/Graduate/Design/FPGA/Real_input.v                                                       ;             ;
 ; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; d:/quartus/quartus/libraries/megafunctions/sld_signaltap.vhd                                            ;             ;
 ; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; d:/quartus/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                       ;             ;
 ; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/quartus/quartus/libraries/megafunctions/sld_ela_control.vhd                                          ;             ;
@@ -252,31 +252,31 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+------------+
 ; Resource                                    ; Usage      ;
 +---------------------------------------------+------------+
-; Estimated Total logic elements              ; 1,245      ;
+; Estimated Total logic elements              ; 1,250      ;
 ;                                             ;            ;
-; Total combinational functions               ; 719        ;
+; Total combinational functions               ; 724        ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 343        ;
-;     -- 3 input functions                    ; 185        ;
-;     -- <=2 input functions                  ; 191        ;
+;     -- 4 input functions                    ; 345        ;
+;     -- 3 input functions                    ; 186        ;
+;     -- <=2 input functions                  ; 193        ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 613        ;
+;     -- normal mode                          ; 618        ;
 ;     -- arithmetic mode                      ; 106        ;
 ;                                             ;            ;
-; Total registers                             ; 906        ;
-;     -- Dedicated logic registers            ; 906        ;
+; Total registers                             ; 907        ;
+;     -- Dedicated logic registers            ; 907        ;
 ;     -- I/O registers                        ; 0          ;
 ;                                             ;            ;
-; I/O pins                                    ; 27         ;
+; I/O pins                                    ; 43         ;
 ; Total memory bits                           ; 106496     ;
 ;                                             ;            ;
 ; Embedded Multiplier 9-bit elements          ; 0          ;
 ;                                             ;            ;
 ; Maximum fan-out node                        ; tclk~input ;
 ; Maximum fan-out                             ; 481        ;
-; Total fan-out                               ; 5832       ;
-; Average fan-out                             ; 3.40       ;
+; Total fan-out                               ; 5865       ;
+; Average fan-out                             ; 3.35       ;
 +---------------------------------------------+------------+
 
 
@@ -285,9 +285,9 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                              ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |Design_Of_Graduation                                                                                                                   ; 719 (18)            ; 906 (15)                  ; 106496      ; 0            ; 0       ; 0         ; 27   ; 0            ; |Design_Of_Graduation                                                                                                                                                                                                                                                                                                                                            ; Design_Of_Graduation              ; work         ;
-;    |UART_R:wesdfgh|                                                                                                                     ; 70 (36)             ; 38 (17)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|UART_R:wesdfgh                                                                                                                                                                                                                                                                                                                             ; UART_R                            ; work         ;
-;       |BaudRate_Clk:BCLSdasff|                                                                                                          ; 34 (34)             ; 21 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|UART_R:wesdfgh|BaudRate_Clk:BCLSdasff                                                                                                                                                                                                                                                                                                      ; BaudRate_Clk                      ; work         ;
+; |Design_Of_Graduation                                                                                                                   ; 724 (23)            ; 907 (16)                  ; 106496      ; 0            ; 0       ; 0         ; 43   ; 0            ; |Design_Of_Graduation                                                                                                                                                                                                                                                                                                                                            ; Design_Of_Graduation              ; work         ;
+;    |UART_R:wesdfgh|                                                                                                                     ; 70 (37)             ; 38 (17)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|UART_R:wesdfgh                                                                                                                                                                                                                                                                                                                             ; UART_R                            ; work         ;
+;       |BaudRate_Clk:BCLSdasff|                                                                                                          ; 33 (33)             ; 21 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|UART_R:wesdfgh|BaudRate_Clk:BCLSdasff                                                                                                                                                                                                                                                                                                      ; BaudRate_Clk                      ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 126 (1)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; sld_hub                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 125 (0)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; alt_sld_fab_with_jtag_input       ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 125 (0)             ; 91 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Design_Of_Graduation|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab                       ; alt_sld_fab  ;
@@ -393,54 +393,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                                                                                                                                                                                                                                                           ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Register name                                                                                                                                                                          ; Reason for Removal                                                                                                                                                                                  ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; UART_R:wesdfgh|NStatus[2]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                                                                                                              ;
-; UART_R:wesdfgh|CStatus[2]                                                                                                                                                              ; Stuck at GND due to stuck port data_in                                                                                                                                                              ;
-; Total Number of Removed Registers = 2                                                                                                                                                  ;                                                                                                                                                                                                     ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|segment_shift_clk_ena                                                      ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_enable_delayed                                                 ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[0] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[0]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[1] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[1]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[2] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[2]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[3] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[3]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[4] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[4]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[5] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[5]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[6] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[6]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[7] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[7]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[8] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[8]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:base_address[0] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[9]  ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:base_address[1] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[10] ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:base_address[2] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[11] ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[0]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[0]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[1]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[1]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[2]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[2]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[3]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[3]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[4]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[4]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[5]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[5]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[6]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[6]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[7]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[7]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_offset_delayed[8]                                                  ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[8]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_segment_delayed[0]                                                 ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[9]                                             ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_segment_delayed[1]                                                 ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[10]                                            ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|current_segment_delayed[2]                                                 ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_address_delayed[11]                                            ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[13..15]                       ; Stuck at GND due to stuck port data_in                                                                                                                                                              ;
-; Total Number of Removed Registers = 28                                                                                                                                                 ;                                                                                                                                                                                                     ;
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; UART_R:wesdfgh|NStatus[2]             ; Stuck at GND due to stuck port data_in ;
+; UART_R:wesdfgh|CStatus[2]             ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2 ;                                        ;
++---------------------------------------+----------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                                                                                                                                              ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Register name                                                                                                                                                ; Reason for Removal        ; Registers Removed due to This Register                                                                                                                        ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; UART_R:wesdfgh|NStatus[2]                                                                                                                                    ; Stuck at GND              ; UART_R:wesdfgh|CStatus[2]                                                                                                                                     ;
-;                                                                                                                                                              ; due to stuck port data_in ;                                                                                                                                                               ;
-; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[15] ; Stuck at GND              ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[14], ;
-;                                                                                                                                                              ; due to stuck port data_in ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[13]  ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                    ;
++---------------------------+---------------------------+----------------------------------------+
+; Register name             ; Reason for Removal        ; Registers Removed due to This Register ;
++---------------------------+---------------------------+----------------------------------------+
+; UART_R:wesdfgh|NStatus[2] ; Stuck at GND              ; UART_R:wesdfgh|CStatus[2]              ;
+;                           ; due to stuck port data_in ;                                        ;
++---------------------------+---------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -448,7 +419,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 906   ;
+; Total registers                              ; 907   ;
 ; Number of registers using Synchronous Clear  ; 48    ;
 ; Number of registers using Synchronous Load   ; 71    ;
 ; Number of registers using Asynchronous Clear ; 262   ;
@@ -464,9 +435,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Inverted Register                                                                                                                                                                                                                                                                                                               ; Fan out ;
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; UART_R:wesdfgh|CStatus[1]                                                                                                                                                                                                                                                                                                       ; 4       ;
-; UART_R:wesdfgh|NStatus[0]                                                                                                                                                                                                                                                                                                       ; 10      ;
+; UART_R:wesdfgh|NStatus[0]                                                                                                                                                                                                                                                                                                       ; 11      ;
 ; UART_R:wesdfgh|CStatus[0]                                                                                                                                                                                                                                                                                                       ; 4       ;
-; UART_R:wesdfgh|n_bit[0]                                                                                                                                                                                                                                                                                                         ; 10      ;
+; UART_R:wesdfgh|n_bit[0]                                                                                                                                                                                                                                                                                                         ; 11      ;
 ; UART_R:wesdfgh|BaudRate_Clk:BCLSdasff|ntime[7]                                                                                                                                                                                                                                                                                  ; 1       ;
 ; UART_R:wesdfgh|BaudRate_Clk:BCLSdasff|ntime[6]                                                                                                                                                                                                                                                                                  ; 1       ;
 ; UART_R:wesdfgh|BaudRate_Clk:BCLSdasff|ntime[4]                                                                                                                                                                                                                                                                                  ; 1       ;
@@ -488,22 +459,14 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                                                          ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Design_Of_Graduation|UART_R:wesdfgh|NStatus[1]                                                                                                                                           ;
-; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Design_Of_Graduation|UART_R:wesdfgh|CStatus[0]                                                                                                                                           ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|tdo_crc_val_shift_reg[13]                               ;
-; 3:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|tdo_crc_val_shift_reg[10]                               ;
-; 3:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[9]         ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|tdo_crc_len_reg[17]                                     ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_rom_sr:crc_rom_sr|word_counter[0]                   ;
-; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|counter[0]   ;
-; 12:1               ; 4 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; Yes        ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_rom_sr:crc_rom_sr|WORD_SR[2]                        ;
-; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; No         ; |Design_Of_Graduation|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|offset_count ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
+; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Design_Of_Graduation|UART_R:wesdfgh|NStatus[1] ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 6 LEs                ; 8 LEs                  ; Yes        ; |Design_Of_Graduation|UART_R:wesdfgh|CStatus[0] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
 
 
 +-------------------------------------------------------+
@@ -614,6 +577,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Real_input:realinput1"                                                                          ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Rea_input[15..2] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "UART_R:wesdfgh|BaudRate_Clk:BCLSdasff"                                                                        ;
 +-----------+--------+----------+----------------------------------------------------------------------------------------------------------+
@@ -651,64 +623,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 27                          ;
-; cycloneiii_ff         ; 53                          ;
+; boundary_port         ; 43                          ;
+; cycloneiii_ff         ; 54                          ;
 ;     ENA               ; 12                          ;
-;     plain             ; 41                          ;
-; cycloneiii_lcell_comb ; 88                          ;
+;     plain             ; 42                          ;
+; cycloneiii_lcell_comb ; 93                          ;
 ;     arith             ; 19                          ;
 ;         2 data inputs ; 19                          ;
-;     normal            ; 69                          ;
+;     normal            ; 74                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 11                          ;
-;         3 data inputs ; 15                          ;
-;         4 data inputs ; 41                          ;
+;         2 data inputs ; 13                          ;
+;         3 data inputs ; 16                          ;
+;         4 data inputs ; 43                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.50                        ;
-; Average LUT depth     ; 3.48                        ;
+; Average LUT depth     ; 3.45                        ;
 +-----------------------+-----------------------------+
 
 
-+--------------------------------------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Partition sld_signaltap:auto_signaltap_0 ;
-+-----------------------+--------------------------------------------------------+
-; Type                  ; Count                                                  ;
-+-----------------------+--------------------------------------------------------+
-; boundary_port         ; 214                                                    ;
-; cycloneiii_ff         ; 762                                                    ;
-;     CLR               ; 75                                                     ;
-;     ENA               ; 238                                                    ;
-;     ENA CLR           ; 149                                                    ;
-;     ENA SCLR SLD      ; 36                                                     ;
-;     ENA SLD           ; 15                                                     ;
-;     SLD               ; 10                                                     ;
-;     plain             ; 239                                                    ;
-; cycloneiii_lcell_comb ; 505                                                    ;
-;     arith             ; 79                                                     ;
-;         2 data inputs ; 78                                                     ;
-;         3 data inputs ; 1                                                      ;
-;     normal            ; 426                                                    ;
-;         0 data inputs ; 5                                                      ;
-;         1 data inputs ; 6                                                      ;
-;         2 data inputs ; 35                                                     ;
-;         3 data inputs ; 132                                                    ;
-;         4 data inputs ; 248                                                    ;
-; cycloneiii_ram_block  ; 26                                                     ;
-;                       ;                                                        ;
-; Max LUT depth         ; 6.00                                                   ;
-; Average LUT depth     ; 2.11                                                   ;
-+-----------------------+--------------------------------------------------------+
-
-
-+-----------------------------------------------+
-; Elapsed Time Per Partition                    ;
-+--------------------------------+--------------+
-; Partition Name                 ; Elapsed Time ;
-+--------------------------------+--------------+
-; sld_signaltap:auto_signaltap_0 ; 00:00:02     ;
-; Top                            ; 00:00:03     ;
-+--------------------------------+--------------+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -810,7 +750,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Apr 22 09:53:52 2021
+    Info: Processing started: Thu Apr 22 11:23:04 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Design_Of_Graduation -c Design_Of_Graduation
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file design_of_graduation.v
@@ -875,12 +815,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file lesson_
     Info (12023): Found entity 1: Eightbit_Bidirectional_Shift_Register_4_6 File: D:/temp_desktop/Graduate/Design/FPGA/Lesson_4/Eightbit_Bidirectional_Shift_Register_4_6.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file expe_select.v
     Info (12023): Found entity 1: expe_select File: D:/temp_desktop/Graduate/Design/FPGA/expe_select.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file real_input.v
+    Info (12023): Found entity 1: Real_input File: D:/temp_desktop/Graduate/Design/FPGA/Real_input.v Line: 1
 Info (12127): Elaborating entity "Design_Of_Graduation" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(27): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 27
-Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(28): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 28
-Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(29): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 29
-Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(30): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 30
-Info (12128): Elaborating entity "UART_R" for hierarchy "UART_R:wesdfgh" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 18
+Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(34): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 34
+Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(35): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 35
+Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(36): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 36
+Warning (10230): Verilog HDL assignment warning at Design_Of_Graduation.v(37): truncated value with size 32 to match size of target (3) File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 37
+Info (12128): Elaborating entity "UART_R" for hierarchy "UART_R:wesdfgh" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 21
 Warning (10240): Verilog HDL Always Construct warning at UART.v(51): inferring latch(es) for variable "En_CLK", which holds its previous value in one or more paths through the always construct File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 51
 Warning (10230): Verilog HDL assignment warning at UART.v(62): truncated value with size 32 to match size of target (4) File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 62
 Warning (10230): Verilog HDL assignment warning at UART.v(63): truncated value with size 32 to match size of target (4) File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 63
@@ -889,8 +831,9 @@ Warning (10230): Verilog HDL assignment warning at UART.v(65): truncated value w
 Info (10041): Inferred latch for "En_CLK" at UART.v(57) File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 57
 Info (12128): Elaborating entity "BaudRate_Clk" for hierarchy "UART_R:wesdfgh|BaudRate_Clk:BCLSdasff" File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 39
 Warning (10230): Verilog HDL assignment warning at UART.v(144): truncated value with size 32 to match size of target (20) File: D:/temp_desktop/Graduate/Design/FPGA/UART.v Line: 144
-Info (12128): Elaborating entity "expe_select" for hierarchy "expe_select:expe_select1" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 23
-Info (12128): Elaborating entity "And_Not_Gate_1_1" for hierarchy "And_Not_Gate_1_1:asdfaadfswefa" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 40
+Info (12128): Elaborating entity "Real_input" for hierarchy "Real_input:realinput1" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 23
+Info (12128): Elaborating entity "expe_select" for hierarchy "expe_select:expe_select1" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 28
+Info (12128): Elaborating entity "And_Not_Gate_1_1" for hierarchy "And_Not_Gate_1_1:asdfaadfswefa" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_fb24.tdf
     Info (12023): Found entity 1: altsyncram_fb24 File: D:/temp_desktop/Graduate/Design/FPGA/db/altsyncram_fb24.tdf Line: 27
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_8tc.tdf
@@ -909,7 +852,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cntr
     Info (12023): Found entity 1: cntr_b3j File: D:/temp_desktop/Graduate/Design/FPGA/db/cntr_b3j.tdf Line: 25
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2021.04.22.09:54:28 Progress: Loading sldd3613774/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2021.04.22.11:23:32 Progress: Loading sldd3613774/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -934,39 +877,51 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/ip/s
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/temp_desktop/Graduate/Design/FPGA/db/ip/sldd3613774/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "logic_output[1]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[2]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[3]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[4]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[5]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[6]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[7]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[8]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[9]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[10]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[11]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[12]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[13]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[14]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
-    Warning (13410): Pin "logic_output[15]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 7
+    Warning (13410): Pin "logic_output[1]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[2]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[3]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[4]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[5]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[6]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[7]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[8]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[9]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[10]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[11]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[12]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[13]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[14]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
+    Warning (13410): Pin "logic_output[15]" is stuck at GND File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 8
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
-Info (13000): Registers with preset signals will power-up high File: d:/quartus/quartus/libraries/megafunctions/sld_buffer_manager.vhd Line: 356
-Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
-Info (286031): Timing-Driven Synthesis is running on partition "sld_signaltap:auto_signaltap_0"
 Info (144001): Generated suppressed messages file D:/temp_desktop/Graduate/Design/FPGA/output_files/Design_Of_Graduation.map.smsg
 Info (35024): Successfully connected in-system debug instance "auto_signaltap_0" to all 85 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1338 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 5 input pins
+Warning (21074): Design contains 14 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "key_input[2]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[3]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[4]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[5]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[6]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[7]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[8]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[9]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[10]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[11]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[12]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[13]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[14]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+    Warning (15610): No output dependent on input pin "key_input[15]" File: D:/temp_desktop/Graduate/Design/FPGA/Design_Of_Graduation.v Line: 4
+Info (21057): Implemented 1359 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 21 input pins
     Info (21059): Implemented 26 output pins
-    Info (21061): Implemented 1280 logic cells
+    Info (21061): Implemented 1285 logic cells
     Info (21064): Implemented 26 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 42 warnings
     Info: Peak virtual memory: 4842 megabytes
-    Info: Processing ended: Thu Apr 22 09:54:55 2021
-    Info: Elapsed time: 00:01:03
-    Info: Total CPU time (on all processors): 00:01:07
+    Info: Processing ended: Thu Apr 22 11:23:48 2021
+    Info: Elapsed time: 00:00:44
+    Info: Total CPU time (on all processors): 00:01:04
 
 
 +------------------------------------------+
