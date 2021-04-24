@@ -1,0 +1,161 @@
+\t (00:00:18) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:18)     Journal start - Fri Apr 23 10:07:05 2021
+\t (00:00:18)         Host=CD-DESKTOP User=DELL Pid=22232 CPUs=4
+\t (00:00:18) CmdLine= D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:18) 
+   (00:00:19) Loading axlcore.cxt 
+\t (00:00:20) Opening existing design...
+\i (00:00:22) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged base
+\d (00:00:22) Design opened: D:/temp_desktop/Graduate/Design/Hardware/scheme/base/PCB/base.brd
+\i (00:00:23) trapsize 67
+\i (00:00:23) trapsize 69
+\i (00:00:24) trapsize 73
+\i (00:00:24) trapsize 76
+\i (00:00:25) etchedit 
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 186.5 450.8
+\i (00:01:03) trapsize 151
+\i (00:01:05) zoom in 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom in -921.1 -163.5
+\i (00:01:05) trapsize 76
+\i (00:01:05) zoom in 1 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom in -925.6 -163.4
+\i (00:01:05) trapsize 38
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out -781.8 -130.8
+\i (00:01:06) trapsize 76
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out -781.8 -130.8
+\i (00:01:06) trapsize 151
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in -781.8 -545.5
+\i (00:01:07) trapsize 76
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out -809.0 -129.3
+\i (00:01:07) trapsize 151
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in -624.4 330.7
+\i (00:01:09) trapsize 76
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in -627.4 336.8
+\i (00:01:09) trapsize 38
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out -638.7 338.3
+\i (00:01:10) trapsize 76
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out -734.1 97.8
+\i (00:02:15) trapsize 151
+\i (00:02:16) zoom in 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom in -864.2 -407.7
+\i (00:02:16) trapsize 76
+\i (00:02:16) zoom in 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom in -861.1 -404.6
+\i (00:02:16) trapsize 38
+\i (00:02:17) zoom out 1 
+\i (00:02:17) setwindow pcb
+\i (00:02:17) zoom out -823.3 -375.1
+\i (00:02:17) trapsize 76
+\i (00:02:17) zoom out 1 
+\i (00:02:17) setwindow pcb
+\i (00:02:17) zoom out -690.1 -126.9
+\i (00:02:17) trapsize 151
+\i (00:02:18) zoom in 1 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) zoom in -517.5 339.1
+\i (00:02:18) trapsize 76
+\i (00:03:01) zoom in 1 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) zoom in -1001.8 -340.3
+\i (00:03:01) trapsize 38
+\i (00:03:01) zoom in 1 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) zoom in -1001.8 -340.3
+\i (00:03:01) trapsize 19
+\i (00:03:02) zoom out 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom out -917.9 -289.2
+\i (00:03:02) trapsize 38
+\i (00:03:02) zoom out 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom out -917.8 -289.2
+\i (00:03:02) trapsize 76
+\i (00:03:02) zoom in 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom in -995.1 -510.2
+\i (00:03:02) trapsize 38
+\i (00:03:03) zoom in 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom in -995.9 -511.0
+\i (00:03:03) trapsize 19
+\i (00:03:03) zoom out 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom out -1011.7 -488.2
+\i (00:03:03) trapsize 38
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out -986.0 -420.9
+\i (00:03:04) trapsize 76
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out -865.0 -107.6
+\i (00:03:04) trapsize 151
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out -865.0 -107.6
+\i (00:03:04) trapsize 303
+\i (00:03:05) zoom in 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom in -641.0 419.3
+\i (00:03:05) trapsize 151
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in -725.8 286.1
+\i (00:03:06) trapsize 76
+\i (00:03:48) pick grid -683.4 -24.2
+\t (00:03:48) last pick:  -675.0 -25.0
+\i (00:12:41) trapsize 113
+\i (00:12:41) trapsize 112
+\i (00:12:43) trapsize 76
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out -173.3 280.1
+\i (00:12:44) trapsize 151
+\i (00:12:44) zoom in 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom in -424.6 119.6
+\i (00:12:44) trapsize 76
+\i (00:12:44) zoom in 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom in -424.5 119.6
+\i (00:12:44) trapsize 38
+\i (00:12:45) zoom out 1 
+\i (00:12:45) setwindow pcb
+\i (00:12:45) zoom out -442.0 120.4
+\i (00:12:45) trapsize 76
+\i (00:15:22) pick grid -376.9 -292.8
+\t (00:15:22) last pick:  -375.0 -300.0
+\i (00:15:23) move 
+\t (00:15:23) last pick:  -390.0 -320.0
+\t (00:15:23) Moving R2 / R_RES0805_1K / RES0805.
+\t (00:15:23) Pick new location for the element(s).
+\i (00:15:31) done 
+\i (00:15:31) etchedit 
+\i (00:15:32) pick grid -1248.7 -251.9
+\t (00:15:32) last pick:  -1250.0 -250.0
+\i (01:35:30) exit 
+\e (01:35:30) Do you want to save the changes you made to base.brd?
+\i (01:35:32) fillin no 
+\t (01:35:37)     Journal end - Fri Apr 23 11:42:24 2021

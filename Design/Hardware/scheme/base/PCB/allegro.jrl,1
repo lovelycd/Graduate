@@ -1,64 +1,60 @@
-\t (00:00:03) allegro 17.4 S016 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Thu Apr 15 10:41:05 2021
-\t (00:00:03)         Host=CD-DESKTOP User=DELL Pid=22368 CPUs=4
-\t (00:00:03) CmdLine= d:\cadence\cadence\cadence_spb_17.4-2019\tools\bin\allegro.exe D:\temp_desktop\Graduate\Design\Hardware\scheme\base\PCB\base.brd
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged base
-\d (00:00:07) Design opened: D:/temp_desktop/Graduate/Design/Hardware/scheme/base/PCB/base.brd
-\i (00:00:07) trapsize 67
-\i (00:00:07) trapsize 69
-\i (00:00:08) trapsize 73
-\i (00:00:08) trapsize 76
-\i (00:00:08) etchedit 
-\i (00:00:18) zoom out 1 
-\i (00:00:18) setwindow pcb
-\i (00:00:18) zoom out -745.6 403.9
-\i (00:00:18) trapsize 151
-\i (00:00:18) zoom out 1 
-\i (00:00:18) setwindow pcb
-\i (00:00:18) zoom out -742.6 404.0
-\i (00:00:18) trapsize 303
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in -106.9 -50.0
-\i (00:00:20) trapsize 151
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in -106.9 -50.0
-\i (00:00:20) trapsize 76
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in -94.8 -72.7
-\i (00:00:20) trapsize 38
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out -35.8 -71.1
-\i (00:00:21) trapsize 76
-\i (00:00:25) ipc356 out 
-   (00:00:25) Loading cmds.cxt 
-\i (00:00:25) etchedit 
-\i (00:00:28) setwindow form.ipc356
-\i (00:00:28) FORM ipc356 run  
-\t (00:00:28) Starting ipc356_out...
-\i (00:00:35) setwindow pcb
-\i (00:00:35) ncdrill param 
-\i (00:00:35) etchedit 
-\i (00:00:40) nctape_full 
-\i (00:00:42) setwindow form.nc_drill
-\i (00:00:42) FORM nc_drill execute  
-\t (00:00:42) Starting Generating NC Drill...
-\i (00:00:49) setwindow pcb
-\i (00:00:49) artwork 
-\i (00:00:49) setwindow form.film_control
-\i (00:00:49) FORM film_control filmtree  DRILL 
-\i (00:00:52) FORM film_control filmtree popup 'Select All' DRILL 
-\i (00:00:54) FORM film_control create  
-\t (00:00:54) Checking db records
-\t (00:00:54)     checking for orphans...
-\t (00:00:54)     Checked 100 percent
-\t (00:00:54) Done dbdoctor.
-\t (00:00:54) Starting Create artwork films...
-\w (00:00:55) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:00:56) Artwork generated with warnings.
+\t (00:00:15) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Thu Apr 22 10:06:19 2021
+\t (00:00:15)         Host=CD-DESKTOP User=DELL Pid=9684 CPUs=4
+\t (00:00:15) CmdLine= D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:15) 
+   (00:00:16) Loading axlcore.cxt 
+\t (00:00:17) Opening existing design...
+\i (00:00:18) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged base
+\d (00:00:18) Design opened: D:/temp_desktop/Graduate/Design/Hardware/scheme/base/PCB/base.brd
+\i (00:00:19) trapsize 67
+\i (00:00:19) trapsize 69
+\i (00:00:19) trapsize 73
+\i (00:00:19) trapsize 76
+\i (00:00:20) etchedit 
+\i (00:00:23) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 363.6 292.0
+\i (00:00:23) trapsize 151
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 968.8 237.4
+\i (00:00:25) trapsize 76
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 982.4 220.8
+\i (00:00:26) trapsize 38
+\i (00:00:29) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 826.6 276.8
+\i (00:01:14) trapsize 76
+\i (00:01:16) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:01:18) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:06:08) zoom in 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom in 655.7 393.4
+\i (00:06:08) trapsize 38
+\i (00:06:08) zoom in 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom in 655.7 393.4
+\i (00:06:08) trapsize 19
+\i (00:06:08) zoom in 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom in 655.7 393.1
+\i (00:06:08) trapsize 9
+\i (00:06:08) zoom out 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom out 655.7 393.1
+\i (00:06:08) trapsize 19
+\i (00:06:08) zoom out 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom out 655.7 393.2
+\i (00:06:08) trapsize 38
+\i (00:06:08) zoom out 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom out 655.8 393.2
+\i (00:06:08) trapsize 76
+\i (01:23:01) exit 
+\t (01:23:05)     Journal end - Thu Apr 22 11:29:09 2021

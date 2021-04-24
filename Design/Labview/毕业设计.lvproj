@@ -36,14 +36,15 @@
 		<Item Name="十进制同步加法计数器74HC162的功能测试.vi" Type="VI" URL="../时序逻辑电路实验/十进制同步加法计数器74HC162的功能测试.vi"/>
 		<Item Name="74HC162设计一个五进制计数器.vi" Type="VI" URL="../时序逻辑电路实验/74HC162设计一个五进制计数器.vi"/>
 		<Item Name="两片74HC162设计一个二十四进制计数器.vi" Type="VI" URL="../时序逻辑电路实验/两片74HC162设计一个二十四进制计数器.vi"/>
+		<Item Name="74hc194.vi" Type="VI" URL="../时序逻辑电路实验/74hc194.vi"/>
 		<Item Name="四位双向移位寄存器74HC194功能的测试.vi" Type="VI" URL="../时序逻辑电路实验/四位双向移位寄存器74HC194功能的测试.vi"/>
+		<Item Name="循环移位器.vi" Type="VI" URL="../时序逻辑电路实验/循环移位器.vi"/>
 		<Item Name="两片74HC194的构成八位双向移位寄存器.vi" Type="VI" URL="../时序逻辑电路实验/两片74HC194的构成八位双向移位寄存器.vi"/>
 		<Item Name="555集成定时器组成多谐振荡器.vi" Type="VI" URL="../555定时器实验/555集成定时器组成多谐振荡器.vi"/>
 		<Item Name="压控振荡电路.vi" Type="VI" URL="../555定时器实验/压控振荡电路.vi"/>
 		<Item Name="模拟警笛声电路.vi" Type="VI" URL="../555定时器实验/模拟警笛声电路.vi"/>
 		<Item Name="555集成定时器组成单稳态触发器.vi" Type="VI" URL="../555定时器实验/555集成定时器组成单稳态触发器.vi"/>
 		<Item Name="555组成施密特电路.vi" Type="VI" URL="../555定时器实验/555组成施密特电路.vi"/>
-		<Item Name="循环移位器.vi" Type="VI" URL="../时序逻辑电路实验/循环移位器.vi"/>
 		<Item Name="运行菜单.rtm" Type="Document" URL="../运行菜单.rtm"/>
 		<Item Name="串口.vi" Type="VI" URL="../串口.vi"/>
 		<Item Name="74HC138.vi" Type="VI" URL="../组合逻辑电路实验/74HC138.vi"/>

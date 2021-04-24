@@ -1,5 +1,5 @@
 |Design_Of_Graduation
-tclk => tclk.IN1
+tclk => tclk.IN2
 RXD => RXD.IN1
 DATA_R[0] <= UART_R:wesdfgh.port3
 DATA_R[1] <= UART_R:wesdfgh.port3
@@ -9,23 +9,6 @@ DATA_R[4] <= UART_R:wesdfgh.port3
 DATA_R[5] <= UART_R:wesdfgh.port3
 DATA_R[6] <= UART_R:wesdfgh.port3
 DATA_R[7] <= UART_R:wesdfgh.port3
-intr_rcive <= UART_R:wesdfgh.port4
-logic_output[0] <= logic_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-logic_output[1] <= <GND>
-logic_output[2] <= <GND>
-logic_output[3] <= <GND>
-logic_output[4] <= <GND>
-logic_output[5] <= <GND>
-logic_output[6] <= <GND>
-logic_output[7] <= <GND>
-logic_output[8] <= <GND>
-logic_output[9] <= <GND>
-logic_output[10] <= <GND>
-logic_output[11] <= <GND>
-logic_output[12] <= <GND>
-logic_output[13] <= <GND>
-logic_output[14] <= <GND>
-logic_output[15] <= <GND>
 key_input[0] => Real_input:realinput1.Key_input[0]
 key_input[1] => Real_input:realinput1.Key_input[1]
 key_input[2] => Real_input:realinput1.Key_input[2]
@@ -42,6 +25,31 @@ key_input[12] => Real_input:realinput1.Key_input[12]
 key_input[13] => Real_input:realinput1.Key_input[13]
 key_input[14] => Real_input:realinput1.Key_input[14]
 key_input[15] => Real_input:realinput1.Key_input[15]
+intr_rcive <= UART_R:wesdfgh.port4
+logic_output[0] <= logic_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[1] <= logic_output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[2] <= logic_output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[3] <= logic_output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[4] <= logic_output[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[5] <= logic_output[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[6] <= logic_output[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[7] <= logic_output[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+logic_output[8] <= <GND>
+logic_output[9] <= <GND>
+logic_output[10] <= <GND>
+logic_output[11] <= <GND>
+logic_output[12] <= <GND>
+logic_output[13] <= <GND>
+logic_output[14] <= <GND>
+logic_output[15] <= <GND>
+led_output[0] <= led_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[1] <= led_output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[2] <= led_output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[3] <= led_output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[4] <= led_output[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[5] <= led_output[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[6] <= led_output[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_output[7] <= led_output[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Design_Of_Graduation|UART_R:wesdfgh
@@ -300,10 +308,883 @@ En_45 <= En_45.DB_MAX_OUTPUT_PORT_TYPE
 En_46 <= En_46.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Design_Of_Graduation|And_Not_Gate_1_1:asdfaadfswefa
+|Design_Of_Graduation|And_Not_Gate_1_1:AndNotGate1
 En => out1.IN1
 in1 => out1.IN0
 in2 => out1.IN1
 out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Semi_Adder_1_2:SemiAdder1
+En => S0.IN1
+A0 => S0.IN0
+A0 => C0.IN0
+B0 => S0.IN1
+B0 => C0.IN1
+S0 <= S0.DB_MAX_OUTPUT_PORT_TYPE
+C0 <= C0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Full_Adder_1_3:FullAdder1
+En => C1.IN1
+En => S1.IN1
+A0 => C1.IN0
+A0 => S1.IN0
+A0 => S1.IN0
+A0 => S1.IN0
+A0 => S1.IN0
+B0 => C1.IN0
+B0 => S1.IN1
+B0 => S1.IN1
+B0 => S1.IN1
+B0 => S1.IN1
+C0 => C1.IN1
+C0 => C1.IN1
+C0 => S1.IN1
+C0 => S1.IN1
+C0 => S1.IN1
+C0 => S1.IN1
+S1 <= S1.DB_MAX_OUTPUT_PORT_TYPE
+C1 <= C1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Fire_Alarm_System_1_4:FireAlarmSystem1
+En => F.IN1
+A => F.IN0
+A => F.IN0
+B => F.IN1
+B => F.IN0
+C => F.IN1
+C => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Vote_1_5:FourVote1
+En => Y.IN1
+A => Y.IN0
+A => Y.IN0
+A => Y.IN0
+B => Y.IN1
+B => Y.IN0
+C => Y.IN1
+C => Y.IN1
+D => Y.IN1
+D => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Decoder_74hc138_2_1:Decoder74hc1381
+En => Y0N.IN1
+En => Y1N.IN1
+En => Y2N.IN1
+En => Y3N.IN1
+En => Y4N.IN1
+En => Y5N.IN1
+En => Y6N.IN1
+En => Y7N.IN1
+A0 => Y1N.IN1
+A0 => Y0N.IN1
+A1 => Y2N.IN1
+A1 => Y3N.IN1
+A1 => Y0N.IN1
+A1 => Y1N.IN1
+A2 => Y4N.IN1
+A2 => Y5N.IN1
+A2 => Y6N.IN1
+A2 => Y7N.IN1
+A2 => Y0N.IN1
+A2 => Y1N.IN1
+A2 => Y2N.IN1
+A2 => Y3N.IN1
+S1 => Y0N.IN0
+S2N => Y0N.IN1
+S3N => Y0N.IN1
+Y0N <= Y0N.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= Y1N.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= Y2N.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= Y3N.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= Y4N.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= Y5N.DB_MAX_OUTPUT_PORT_TYPE
+Y6N <= Y6N.DB_MAX_OUTPUT_PORT_TYPE
+Y7N <= Y7N.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Led_74ls138_2_2:Led74ls1381
+En => Y.IN1
+A => A.IN1
+B => B.IN1
+C => C.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Led_74ls138_2_2:Led74ls1381|Decoder_74hc138_2_1:D721
+En => Y0N.IN1
+En => Y1N.IN1
+En => Y2N.IN1
+En => Y3N.IN1
+En => Y4N.IN1
+En => Y5N.IN1
+En => Y6N.IN1
+En => Y7N.IN1
+A0 => Y1N.IN1
+A0 => Y0N.IN1
+A1 => Y2N.IN1
+A1 => Y3N.IN1
+A1 => Y0N.IN1
+A1 => Y1N.IN1
+A2 => Y4N.IN1
+A2 => Y5N.IN1
+A2 => Y6N.IN1
+A2 => Y7N.IN1
+A2 => Y0N.IN1
+A2 => Y1N.IN1
+A2 => Y2N.IN1
+A2 => Y3N.IN1
+S1 => Y0N.IN0
+S2N => Y0N.IN1
+S3N => Y0N.IN1
+Y0N <= Y0N.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= Y1N.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= Y2N.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= Y3N.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= Y4N.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= Y5N.DB_MAX_OUTPUT_PORT_TYPE
+Y6N <= Y6N.DB_MAX_OUTPUT_PORT_TYPE
+Y7N <= Y7N.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Dual_MUX_74hc173_2_3:DualMUX74hc173
+En => Y1.IN1
+En => Y2.IN1
+S1N => Y1.IN1
+D10 => Y1.IN1
+D11 => Y1.IN1
+D12 => Y1.IN1
+D13 => Y1.IN1
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+D20 => Y2.IN1
+D21 => Y2.IN1
+D22 => Y2.IN1
+D23 => Y2.IN1
+S2N => Y2.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|MUX_8_1_2_4:MUX81241
+En => Y.IN1
+A0 => A0.IN1
+A1 => A1.IN1
+A2 => A2.IN1
+D0 => D0.IN1
+D1 => D1.IN1
+D2 => D2.IN1
+D3 => D3.IN1
+D4 => D4.IN1
+D5 => D5.IN1
+D6 => D6.IN1
+D7 => D7.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|MUX_8_1_2_4:MUX81241|Dual_MUX_74hc173_2_3:DM173_23_1
+En => Y1.IN1
+En => Y2.IN1
+S1N => Y1.IN1
+D10 => Y1.IN1
+D11 => Y1.IN1
+D12 => Y1.IN1
+D13 => Y1.IN1
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+D20 => Y2.IN1
+D21 => Y2.IN1
+D22 => Y2.IN1
+D23 => Y2.IN1
+S2N => Y2.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Full_Adder_74hc153_2_5:FullAdder2
+En => S1.IN1
+En => C1.IN1
+A1 => A1.IN1
+B1 => B1.IN1
+C0 => C0.IN4
+S1 <= S1.DB_MAX_OUTPUT_PORT_TYPE
+C1 <= C1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Full_Adder_74hc153_2_5:FullAdder2|Dual_MUX_74hc173_2_3:DM_74_23_1
+En => Y1.IN1
+En => Y2.IN1
+S1N => Y1.IN1
+D10 => Y1.IN1
+D11 => Y1.IN1
+D12 => Y1.IN1
+D13 => Y1.IN1
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A0 => Y1.IN0
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+A1 => Y1.IN1
+D20 => Y2.IN1
+D21 => Y2.IN1
+D22 => Y2.IN1
+D23 => Y2.IN1
+S2N => Y2.IN1
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Digital_Tube_Decoder_2_6:DigitalTubeDecoder1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+A0 => Decoder0.IN0
+A1 => Decoder0.IN1
+A2 => Decoder0.IN2
+A3 => Decoder0.IN3
+a <= concat.DB_MAX_OUTPUT_PORT_TYPE
+b <= concat.DB_MAX_OUTPUT_PORT_TYPE
+c <= concat.DB_MAX_OUTPUT_PORT_TYPE
+d <= concat.DB_MAX_OUTPUT_PORT_TYPE
+e <= concat.DB_MAX_OUTPUT_PORT_TYPE
+f <= concat.DB_MAX_OUTPUT_PORT_TYPE
+g <= concat.DB_MAX_OUTPUT_PORT_TYPE
+dp <= <GND>
+
+
+|Design_Of_Graduation|Coder_8_3_74hc151_2_7:Coder837hc1511
+En => Y.IN1
+En => Y0.IN1
+S0 => Y.IN1
+S0 => Y0.IN1
+A0 => temp.IN0
+A0 => temp.IN0
+A0 => temp.IN0
+A0 => temp.IN0
+A1 => temp.IN1
+A1 => temp.IN1
+A1 => temp.IN1
+A1 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+D0 => temp.IN1
+D1 => temp.IN1
+D2 => temp.IN1
+D3 => temp.IN1
+D4 => temp.IN1
+D5 => temp.IN1
+D6 => temp.IN1
+D7 => temp.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Vote_74hc151_2_8:FourVote74hc151281
+En => En.IN1
+A => A.IN1
+B => B.IN1
+C => C.IN1
+D => D.IN2
+F <= Coder_8_3_74hc151_2_7:C83_151_27_1.port13
+
+
+|Design_Of_Graduation|Four_Vote_74hc151_2_8:FourVote74hc151281|Coder_8_3_74hc151_2_7:C83_151_27_1
+En => Y.IN1
+En => Y0.IN1
+S0 => Y.IN1
+S0 => Y0.IN1
+A0 => temp.IN0
+A0 => temp.IN0
+A0 => temp.IN0
+A0 => temp.IN0
+A1 => temp.IN1
+A1 => temp.IN1
+A1 => temp.IN1
+A1 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+A2 => temp.IN1
+D0 => temp.IN1
+D1 => temp.IN1
+D2 => temp.IN1
+D3 => temp.IN1
+D4 => temp.IN1
+D5 => temp.IN1
+D6 => temp.IN1
+D7 => temp.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Decode_Display_2_9:DecoderDisplay1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+En => concat.IN1
+A0 => Decoder0.IN0
+A1 => Decoder0.IN1
+a <= concat.DB_MAX_OUTPUT_PORT_TYPE
+b <= concat.DB_MAX_OUTPUT_PORT_TYPE
+c <= concat.DB_MAX_OUTPUT_PORT_TYPE
+d <= concat.DB_MAX_OUTPUT_PORT_TYPE
+e <= concat.DB_MAX_OUTPUT_PORT_TYPE
+f <= concat.DB_MAX_OUTPUT_PORT_TYPE
+g <= concat.DB_MAX_OUTPUT_PORT_TYPE
+dp <= <GND>
+
+
+|Design_Of_Graduation|RS_Trigger_3_1:RSTrigger1
+En => Q0.IN1
+En => Q.IN0
+R => n2.IN0
+S => n1.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|D_Trigger_3_2:DTrigger1
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_D_3_3:CrossOver24d1
+En => Q1.IN0
+En => Q2.IN1
+CLK => CLK.IN1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_D_3_3:CrossOver24d1|D_Trigger_3_2:DT_32_1
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_D_3_3:CrossOver24d1|D_Trigger_3_2:DT_32_2
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|JK_Trigger_3_4:JKTrigger1
+En => Q.IN1
+En => Q0.IN1
+CLK => temp_Q.CLK
+J => Mux0.IN3
+K => Mux0.IN4
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_JK_3_5:CrossOver24JK1
+En => Q1.IN0
+En => Q2.IN1
+CLK => CLK.IN1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_JK_3_5:CrossOver24JK1|JK_Trigger_3_4:JKT_34_1
+En => Q.IN1
+En => Q0.IN1
+CLK => temp_Q.CLK
+J => Mux0.IN3
+K => Mux0.IN4
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|CrossOver_24_JK_3_5:CrossOver24JK1|JK_Trigger_3_4:JKT_34_2
+En => Q.IN1
+En => Q0.IN1
+CLK => temp_Q.CLK
+J => Mux0.IN3
+K => Mux0.IN4
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Snatcher_3_6:FourSnatcher1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+En => Q4.IN1
+D1 => D1.IN1
+D2 => D2.IN1
+D3 => D3.IN1
+D4 => D4.IN1
+Rd0 => Rd0.IN4
+CLK => CLK_Dir.IN1
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+Q4 <= Q4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Snatcher_3_6:FourSnatcher1|D_Trigger_3_2:DT_32_1
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Snatcher_3_6:FourSnatcher1|D_Trigger_3_2:DT_32_2
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Snatcher_3_6:FourSnatcher1|D_Trigger_3_2:DT_32_3
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Four_Snatcher_3_6:FourSnatcher1|D_Trigger_3_2:DT_32_4
+En => Q0.IN1
+En => Q.IN1
+CLK => temp_Q.CLK
+D => temp_Q.DATAIN
+Rd0 => temp_Q.IN0
+Rd0 => temp_Q.ACLR
+Sd0 => temp_Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Decimal_Synchronous_Addition_Counter_74hc162_4_1:DecimalSynchronousAdditonCounter1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+En => RCO.IN1
+CLK => temp_Q0.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q3.CLK
+CLK => temp_RCO.CLK
+CR0 => temp_RCO.OUTPUTSELECT
+CR0 => temp_Q3.OUTPUTSELECT
+CR0 => temp_Q2.OUTPUTSELECT
+CR0 => temp_Q1.OUTPUTSELECT
+CR0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_Q3.OUTPUTSELECT
+LD0 => temp_Q2.OUTPUTSELECT
+LD0 => temp_Q1.OUTPUTSELECT
+LD0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_RCO.OUTPUTSELECT
+EP => always0.IN0
+ET => always0.IN1
+ET => always0.IN1
+ET => always0.IN1
+D0 => temp_Q0.DATAB
+D0 => Equal0.IN1
+D1 => temp_Q1.DATAB
+D1 => Equal0.IN3
+D2 => temp_Q2.DATAB
+D2 => Equal0.IN2
+D3 => temp_Q3.DATAB
+D3 => Equal0.IN0
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+RCO <= RCO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Pentadecimal_Counter_74hc162_4_2:PentadecimalCounter1
+En => En.IN1
+CLK => CLK.IN1
+A0 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+A1 <= A1.DB_MAX_OUTPUT_PORT_TYPE
+A2 <= A2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Pentadecimal_Counter_74hc162_4_2:PentadecimalCounter1|Decimal_Synchronous_Addition_Counter_74hc162_4_1:DSAC_162_41_1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+En => RCO.IN1
+CLK => temp_Q0.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q3.CLK
+CLK => temp_RCO.CLK
+CR0 => temp_RCO.OUTPUTSELECT
+CR0 => temp_Q3.OUTPUTSELECT
+CR0 => temp_Q2.OUTPUTSELECT
+CR0 => temp_Q1.OUTPUTSELECT
+CR0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_Q3.OUTPUTSELECT
+LD0 => temp_Q2.OUTPUTSELECT
+LD0 => temp_Q1.OUTPUTSELECT
+LD0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_RCO.OUTPUTSELECT
+EP => always0.IN0
+ET => always0.IN1
+ET => always0.IN1
+ET => always0.IN1
+D0 => temp_Q0.DATAB
+D0 => Equal0.IN1
+D1 => temp_Q1.DATAB
+D1 => Equal0.IN3
+D2 => temp_Q2.DATAB
+D2 => Equal0.IN2
+D3 => temp_Q3.DATAB
+D3 => Equal0.IN0
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+RCO <= RCO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Counter_24_74hc162_4_3:Counter2474hc1621
+En => En.IN2
+CLK => CLK.IN1
+A0 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_1.port10
+A1 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_1.port11
+A2 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_1.port12
+A3 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_1.port13
+A4 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_2.port10
+A5 <= Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_2.port11
+
+
+|Design_Of_Graduation|Counter_24_74hc162_4_3:Counter2474hc1621|Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_2
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+En => RCO.IN1
+CLK => temp_Q0.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q3.CLK
+CLK => temp_RCO.CLK
+CR0 => temp_Q0.ACLR
+CR0 => temp_Q1.ACLR
+CR0 => temp_Q2.ACLR
+CR0 => temp_Q3.ACLR
+CR0 => temp_RCO.ACLR
+LD0 => temp_Q3.OUTPUTSELECT
+LD0 => temp_Q2.OUTPUTSELECT
+LD0 => temp_Q1.OUTPUTSELECT
+LD0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_RCO.OUTPUTSELECT
+EP => always0.IN0
+ET => always0.IN1
+ET => always0.IN1
+ET => always0.IN1
+D0 => temp_Q0.DATAB
+D0 => Equal0.IN1
+D1 => temp_Q1.DATAB
+D1 => Equal0.IN3
+D2 => temp_Q2.DATAB
+D2 => Equal0.IN2
+D3 => temp_Q3.DATAB
+D3 => Equal0.IN0
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+RCO <= RCO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Counter_24_74hc162_4_3:Counter2474hc1621|Decimal_Synchronous_Addition_Counter_74hc162_4_1_Correct:DSAC_41_1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+En => RCO.IN1
+CLK => temp_Q0.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q3.CLK
+CLK => temp_RCO.CLK
+CR0 => temp_Q0.ACLR
+CR0 => temp_Q1.ACLR
+CR0 => temp_Q2.ACLR
+CR0 => temp_Q3.ACLR
+CR0 => temp_RCO.ACLR
+LD0 => temp_Q3.OUTPUTSELECT
+LD0 => temp_Q2.OUTPUTSELECT
+LD0 => temp_Q1.OUTPUTSELECT
+LD0 => temp_Q0.OUTPUTSELECT
+LD0 => temp_RCO.OUTPUTSELECT
+EP => always0.IN0
+ET => always0.IN1
+ET => always0.IN1
+ET => always0.IN1
+D0 => temp_Q0.DATAB
+D0 => Equal0.IN1
+D1 => temp_Q1.DATAB
+D1 => Equal0.IN3
+D2 => temp_Q2.DATAB
+D2 => Equal0.IN2
+D3 => temp_Q3.DATAB
+D3 => Equal0.IN0
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+RCO <= RCO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Fourbit_Bidirectional_Shift_Register_4_4:FourbitBidirectionalShiftRegister1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+CLK => temp_Q3.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q0.CLK
+CR0 => Q0.IN1
+CR0 => Q1.IN1
+CR0 => Q2.IN1
+CR0 => Q3.IN1
+S0 => Mux0.IN2
+S0 => Mux1.IN3
+S0 => Mux2.IN3
+S0 => Mux3.IN2
+S1 => Mux0.IN3
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN3
+DSL => Mux3.IN4
+DSR => Mux0.IN4
+D0 => Mux0.IN5
+D1 => Mux1.IN5
+D2 => Mux2.IN5
+D3 => Mux3.IN5
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Circular_Shifter_74hc194_4_5:CircularShifter1
+En => En.IN1
+CLK => CLK.IN1
+S0 => S0.IN1
+S1 => S1.IN1
+D0 => D0.IN1
+D1 => D1.IN1
+D2 => D2.IN1
+D3 => D3.IN1
+Q0 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port11
+Q1 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port12
+Q2 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port13
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Circular_Shifter_74hc194_4_5:CircularShifter1|Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+CLK => temp_Q3.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q0.CLK
+CR0 => Q0.IN1
+CR0 => Q1.IN1
+CR0 => Q2.IN1
+CR0 => Q3.IN1
+S0 => Mux0.IN2
+S0 => Mux1.IN3
+S0 => Mux2.IN3
+S0 => Mux3.IN2
+S1 => Mux0.IN3
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN3
+DSL => Mux3.IN4
+DSR => Mux0.IN4
+D0 => Mux0.IN5
+D1 => Mux1.IN5
+D2 => Mux2.IN5
+D3 => Mux3.IN5
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Eightbit_Bidirectional_Shift_Register_4_6:EightbitBidirectionalShiftRegister1
+En => En.IN2
+CLK => CLK.IN2
+CR0 => CR0.IN2
+S0 => S0.IN2
+S1 => S1.IN2
+DSL => DSL.IN1
+DSR => DSR.IN1
+D0 => D0.IN1
+D1 => D1.IN1
+D2 => D2.IN1
+D3 => D3.IN1
+D4 => D4.IN1
+D5 => D5.IN1
+D6 => D6.IN1
+D7 => D7.IN1
+Q0 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port11
+Q1 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port12
+Q2 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1.port13
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+Q4 <= Q4.DB_MAX_OUTPUT_PORT_TYPE
+Q5 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_2.port12
+Q6 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_2.port13
+Q7 <= Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_2.port14
+
+
+|Design_Of_Graduation|Eightbit_Bidirectional_Shift_Register_4_6:EightbitBidirectionalShiftRegister1|Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_1
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+CLK => temp_Q3.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q0.CLK
+CR0 => Q0.IN1
+CR0 => Q1.IN1
+CR0 => Q2.IN1
+CR0 => Q3.IN1
+S0 => Mux0.IN2
+S0 => Mux1.IN3
+S0 => Mux2.IN3
+S0 => Mux3.IN2
+S1 => Mux0.IN3
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN3
+DSL => Mux3.IN4
+DSR => Mux0.IN4
+D0 => Mux0.IN5
+D1 => Mux1.IN5
+D2 => Mux2.IN5
+D3 => Mux3.IN5
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Design_Of_Graduation|Eightbit_Bidirectional_Shift_Register_4_6:EightbitBidirectionalShiftRegister1|Fourbit_Bidirectional_Shift_Register_4_4:FBSR_44_2
+En => Q0.IN1
+En => Q1.IN1
+En => Q2.IN1
+En => Q3.IN1
+CLK => temp_Q3.CLK
+CLK => temp_Q2.CLK
+CLK => temp_Q1.CLK
+CLK => temp_Q0.CLK
+CR0 => Q0.IN1
+CR0 => Q1.IN1
+CR0 => Q2.IN1
+CR0 => Q3.IN1
+S0 => Mux0.IN2
+S0 => Mux1.IN3
+S0 => Mux2.IN3
+S0 => Mux3.IN2
+S1 => Mux0.IN3
+S1 => Mux1.IN4
+S1 => Mux2.IN4
+S1 => Mux3.IN3
+DSL => Mux3.IN4
+DSR => Mux0.IN4
+D0 => Mux0.IN5
+D1 => Mux1.IN5
+D2 => Mux2.IN5
+D3 => Mux3.IN5
+Q0 <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= Q1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= Q2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= Q3.DB_MAX_OUTPUT_PORT_TYPE
 
 

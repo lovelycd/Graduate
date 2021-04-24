@@ -44,7 +44,103 @@
 					"strict" : false
 				},
 				{
+					"name" : "logic_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "logic_output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_output[6]",
+					"strict" : false
+				},
+				{
 					"name" : "RXD",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[9]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[8]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[11]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[10]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[2]",
 					"strict" : false
 				},
 				{
@@ -52,7 +148,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "key_input[1]",
+					"name" : "key_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[12]",
+					"strict" : false
+				},
+				{
+					"name" : "key_input[13]",
 					"strict" : false
 				},
 				{
